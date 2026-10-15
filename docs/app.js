@@ -150,10 +150,11 @@ async function refresh() {
   if (writing || reading) return;
   reading = true;
   const version = ++readVersion;
-  readController = new AbortController();
-  const timeout = setTimeout(() => readController?.abort(), 20000);
+  const controller = new AbortController();
+  readController = controller;
+  const timeout = setTimeout(() => controller.abort(), 20000);
   try {
-    const response = await fetch(`${API_URL}/state`, { cache: 'no-store', signal: readController.signal });
+    const response = await fetch(`${API_URL}/state`, { cache: 'no-store', signal: controller.signal });
     if (!response.ok) throw new Error('Read failed');
     const latest = await response.json();
     if (version === readVersion && !writing) {
@@ -223,7 +224,7 @@ async function writeChanges(changes, expected, completed = null) {
           baseline[slot] = result.state.slots[slot];
           updateDirty(slot);
         }
-        status('این شماره هم‌زمان تغییر کرده است. ' + (result.conflicts || []).join('، ') + ' — برای ثبت دوباره، ذخیره را بزنید.');
+        status('این شماره هم‌زمان تغییر کرده است. ' + (result.conflicts || []).join('، ') + (completed ? ' — برای ثبت دوباره، ذخیره را بزنید.' : ''));
         return;
       }
       if (!response.ok) { status('خطا در ذخیره اطلاعات'); return; }
