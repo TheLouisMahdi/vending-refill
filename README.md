@@ -39,7 +39,7 @@ npx wrangler secret put ACCESS_KEY --config worker/wrangler.jsonc
 
 Paste secrets only into Wrangler's secret prompt. Generate `ACCESS_KEY` with a password manager (at least 32 random characters), keep it there, and share it privately with the three operators. Never commit either secret. The Worker stores no application data. Production CORS permits only `https://thelouismahdi.github.io`; localhost is enabled only by the development command above.
 
-After deployment, set `API_URL` in `docs/app.js` to the actual `https://vending-refill-api.<your-subdomain>.workers.dev` URL without a trailing slash, commit and push. The constant is intentionally empty until a real Worker URL is available. Confirm `GET /state` works before using the website.
+Production Worker: `https://vending-refill-api.poimu80.workers.dev`. The `API_URL` constant in `docs/app.js` points to this deployed service. Configure both secrets above, then confirm `GET /state` works before using the website. Dashboard setup is also available under Workers & Pages → vending-refill-api → Settings → Variables and Secrets; both values must use the Secret type.
 
 ## Operation and shared storage
 

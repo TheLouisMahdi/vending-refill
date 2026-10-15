@@ -1,7 +1,7 @@
 'use strict';
 
 // Set this to the deployed Cloudflare Worker URL (no trailing slash).
-const API_URL = '';
+const API_URL = 'https://vending-refill-api.poimu80.workers.dev';
 const SLOT_GROUPS = [
   ['11', '13', '15', '17'],
   ['21', '22', '23', '24', '25', '26', '27', '28'],
