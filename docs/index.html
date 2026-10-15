@@ -4,14 +4,21 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#176AA6">
-  <meta name="description" content="ثبت کسری و تأمین و شارژ دستگاه وندینگ">
-  <title>Vending Refill</title>
-  <link rel="stylesheet" href="styles.css?v=3">
+  <meta name="description" content="پنل UniCafe دانشگاه زنجان برای ثبت آمار و کسری دستگاه‌های وندینگ، تأمین و شارژ، آمار دستگاه قهوه و یادداشت‌های مشترک.">
+  <meta name="application-name" content="UniCafe">
+  <title>UniCafe | آمار و شارژ دستگاه‌ها · دانشگاه زنجان</title>
+  <link rel="stylesheet" href="styles.css?v=4">
   <script src="app.js?v=2" defer></script>
 </head>
 <body>
   <main class="panel">
-    <header><h1 dir="ltr">VENDING REFILL</h1></header>
+    <header>
+      <div class="brand-line">
+        <h1 dir="ltr">UniCafe</h1>
+        <span class="brand-campus">دانشگاه زنجان</span>
+      </div>
+      <p class="brand-description">سامانه ثبت آمار، کسری و شارژ دستگاه‌ها</p>
+    </header>
     <nav aria-label="بخش‌های برنامه" role="tablist">
       <button id="entry-tab" type="button" role="tab" aria-selected="true" aria-controls="entry-panel">ثبت کسری</button>
       <button id="refill-tab" type="button" role="tab" aria-selected="false" aria-controls="refill-panel" tabindex="-1">تأمین و شارژ</button>
@@ -34,6 +41,7 @@
       <p id="empty-refill" hidden>موردی برای شارژ وجود ندارد</p>
     </section>
     <footer class="site-footer">
+      <p><bdi dir="ltr">UniCafe</bdi> · دانشگاه زنجان</p>
       <a href="https://github.com/TheLouisMahdi" target="_blank" rel="noopener noreferrer" dir="ltr">GitHub · TheLouisMahdi</a>
     </footer>
   </main>

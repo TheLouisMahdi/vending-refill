@@ -1,6 +1,6 @@
-# Vending Refill
+# UniCafe — دانشگاه زنجان
 
-Minimal mobile-first Persian/RTL vending machine shortage and refill tracker for three operators. The static frontend runs on GitHub Pages; a small Cloudflare Worker reads and updates one JSON file through the GitHub Contents API. The public repository and read API expose shortage quantities; only writes require the shared access key.
+Mobile-first Persian/RTL panel for UniCafe at the University of Zanjan: shared vending machine statistics, shortages, refills and coffee-machine notes for three operators. The static frontend runs on GitHub Pages; a small Cloudflare Worker reads and updates one JSON file through the GitHub Contents API. The public repository and read API expose saved data; only writes require the shared access key.
 
 Features: 44 fixed slots, editable persistent product names, numeric Enter-to-next entry (Western/Persian/Arabic digits), shared coffee-machine statistics/notes, one Save for changed fields, nonzero refill list, individual refill completion, draft preservation and field-level conflict detection. No build or frontend dependencies.
 
