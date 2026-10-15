@@ -6,8 +6,8 @@
   <meta name="theme-color" content="#176AA6">
   <meta name="description" content="ثبت کسری و تأمین و شارژ دستگاه وندینگ">
   <title>Vending Refill</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="app.js" defer></script>
+  <link rel="stylesheet" href="styles.css?v=2">
+  <script src="app.js?v=2" defer></script>
 </head>
 <body>
   <main class="panel">
@@ -19,8 +19,12 @@
     <p id="status" role="status" aria-live="polite">در حال دریافت اطلاعات...</p>
     <section id="entry-panel" role="tabpanel" aria-labelledby="entry-tab">
       <form id="shortage-form" novalidate>
-        <div class="column-head"><span>شماره</span><span>تعداد موردنیاز</span></div>
+        <div class="column-head"><span>شماره</span><span>نام محصول</span><span>تعداد موردنیاز</span></div>
         <div id="slot-rows"></div>
+        <div class="notes-area">
+          <label for="machine-notes">آمار دستگاه قهوه و یادداشت‌ها</label>
+          <textarea id="machine-notes" rows="5" maxlength="5000" disabled></textarea>
+        </div>
         <div class="save-area"><button id="save" type="submit" disabled>ذخیره آمار</button></div>
       </form>
     </section>

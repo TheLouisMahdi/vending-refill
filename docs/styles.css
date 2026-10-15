@@ -19,7 +19,7 @@ header { padding: 16px; border-top: 4px solid var(--blue); }
 h1 { margin: 0; color: var(--dark); font-size: 18px; font-weight: 750; letter-spacing: .09em; text-align: left; }
 h2 { margin: 0 0 16px; font-size: 16px; font-weight: 650; }
 nav { display: grid; grid-template-columns: 1fr 1fr; border-block: 1px solid var(--border); }
-button, input { font: inherit; min-height: 44px; border: 1px solid var(--border); }
+button, input, textarea { font: inherit; min-height: 44px; border: 1px solid var(--border); }
 button { cursor: pointer; color: var(--surface); background: var(--blue); padding: 10px 14px; touch-action: manipulation; }
 button:disabled { cursor: default; opacity: .55; }
 nav button { border: 0; background: var(--surface); color: var(--dark); font-size: 14px; }
@@ -27,19 +27,23 @@ nav button + button { border-inline-start: 1px solid var(--border); }
 nav button[aria-selected="true"] { background: var(--blue); color: var(--surface); }
 :focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
 #status { margin: 0; padding: 10px 16px; min-height: 42px; font-size: 12px; color: var(--muted); overflow-wrap: anywhere; }
-.column-head, .slot-row { display: grid; grid-template-columns: 1fr 132px; align-items: center; gap: 16px; padding-inline: 16px; }
+.column-head, .slot-row { display: grid; grid-template-columns: 36px minmax(0, 1fr) 90px; align-items: center; gap: 8px; padding-inline: 10px; }
 .column-head { padding-block: 10px; font-size: 12px; color: var(--muted); background: var(--background); border-block: 1px solid var(--border); }
 .column-head span:last-child { text-align: center; }
 .slot-row { padding-block: 4px; border-bottom: 1px solid var(--border); }
 .slot-row.group-start { border-top: 3px solid var(--border); }
 .slot-row label { font-size: 18px; font-weight: 650; font-variant-numeric: tabular-nums; justify-self: start; }
 .slot-row input { width: 100%; min-width: 0; padding: 6px 10px; background: var(--surface); color: var(--text); text-align: center; font-size: 18px; font-variant-numeric: tabular-nums; scroll-margin-block: 16px; }
+.slot-row .product-name { text-align: start; font-size: 16px; padding-inline: 8px; }
 .slot-row input[aria-invalid="true"] { border: 2px solid var(--dark); }
+.notes-area { padding: 16px 10px; }
+.notes-area label { display: block; margin-bottom: 10px; font-size: 14px; font-weight: 650; }
+.notes-area textarea { display: block; width: 100%; min-height: 140px; padding: 10px; resize: vertical; color: var(--text); background: var(--surface); line-height: 1.8; }
 .save-area { padding: 12px 16px; border-top: 1px solid var(--border); background: var(--surface); }
 #save { width: 100%; }
 #refill-panel { padding: 6px 16px 16px; }
 .refill-item { border-top: 1px solid var(--border); padding-block: 14px; }
-.refill-item h3 { margin: 0 0 6px; font-size: 16px; font-weight: 650; }
+.refill-item h3 { margin: 0 0 6px; font-size: 16px; font-weight: 650; overflow-wrap: anywhere; }
 .refill-item p { margin: 0 0 12px; font-size: 14px; color: var(--muted); }
 .refill-item button { width: 100%; font-size: 14px; }
 #empty-refill { font-size: 14px; color: var(--muted); padding-block: 16px; }

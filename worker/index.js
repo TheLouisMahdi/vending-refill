@@ -9,18 +9,29 @@ const SLOTS = [
 const CONTENTS_URL = 'https://api.github.com/repos/TheLouisMahdi/vending-refill/contents/data/shortages.json';
 const isObject = (value) => value !== null && typeof value === 'object' && !Array.isArray(value);
 const isQuantity = (value) => Number.isSafeInteger(value) && value >= 0;
+const isText = (value, limit) => typeof value === 'string' && value.length <= limit;
+function validField(key, value) {
+  if (SLOTS.includes(key)) return isQuantity(value);
+  if (key.startsWith('label:') && SLOTS.includes(key.slice(6))) return isText(value, 120);
+  return key === 'notes' && isText(value, 5000);
+}
+function fieldValue(state, key) {
+  return key === 'notes' ? state.notes : key.startsWith('label:') ? state.labels[key.slice(6)] : state.slots[key];
+}
 
 function validState(state) {
-  return isObject(state) && Object.keys(state).length === 2 &&
+  return isObject(state) && Object.keys(state).every((key) => ['updatedAt', 'slots', 'labels', 'notes'].includes(key)) &&
     (state.updatedAt === null || (typeof state.updatedAt === 'string' && /^\d{4}-\d\d-\d\dT\d\d:\d\d:\d\d(?:\.\d{3})?Z$/.test(state.updatedAt) && Number.isFinite(Date.parse(state.updatedAt)))) &&
     isObject(state.slots) && Object.keys(state.slots).length === SLOTS.length &&
-    SLOTS.every((slot) => isQuantity(state.slots[slot]));
+    SLOTS.every((slot) => isQuantity(state.slots[slot])) &&
+    (state.labels === undefined || (isObject(state.labels) && Object.keys(state.labels).length === SLOTS.length && SLOTS.every((slot) => isText(state.labels[slot], 120)))) &&
+    (state.notes === undefined || isText(state.notes, 5000));
 }
 function validPatch(body) {
   if (!isObject(body) || Object.keys(body).length !== 2 || !isObject(body.changes) || !isObject(body.expected)) return false;
   const keys = Object.keys(body.changes);
-  return keys.length > 0 && keys.length <= SLOTS.length && Object.keys(body.expected).length === keys.length &&
-    keys.every((slot) => SLOTS.includes(slot) && Object.hasOwn(body.expected, slot) && isQuantity(body.changes[slot]) && isQuantity(body.expected[slot]));
+  return keys.length > 0 && keys.length <= SLOTS.length * 2 + 1 && Object.keys(body.expected).length === keys.length &&
+    keys.every((key) => Object.hasOwn(body.expected, key) && validField(key, body.changes[key]) && validField(key, body.expected[key]));
 }
 function githubHeaders(token) {
   return {
@@ -41,6 +52,9 @@ async function githubRead(env) {
   const bytes = Uint8Array.from(atob(file.content.replace(/\s/g, '')), (char) => char.charCodeAt(0));
   const state = JSON.parse(new TextDecoder().decode(bytes));
   if (!validState(state)) throw new Error('Invalid stored state');
+  // Existing quantities stay intact; new fields are added on the next real write.
+  state.labels ??= Object.fromEntries(SLOTS.map((slot) => [slot, '']));
+  state.notes ??= '';
   return { state, sha: file.sha };
 }
 async function authorized(request, key) {
@@ -85,9 +99,9 @@ export default {
       if (path === '/state') return json((await githubRead(env)).state);
       if (!await authorized(request, env.ACCESS_KEY)) return json({ error: 'Unauthorized' }, 401);
       if (!(request.headers.get('Content-Type') || '').toLowerCase().startsWith('application/json')) return json({ error: 'Expected JSON' }, 415);
-      if (Number(request.headers.get('Content-Length')) > 8192) return json({ error: 'Request too large' }, 413);
+      if (Number(request.headers.get('Content-Length')) > 131072) return json({ error: 'Request too large' }, 413);
       const text = await request.text();
-      if (text.length > 8192) return json({ error: 'Request too large' }, 413);
+      if (text.length > 131072) return json({ error: 'Request too large' }, 413);
       let patch;
       try { patch = JSON.parse(text); } catch { return json({ error: 'Invalid JSON' }, 400); }
       if (!validPatch(patch)) return json({ error: 'Invalid slot changes' }, 400);
@@ -95,12 +109,18 @@ export default {
       let latest;
       for (let attempt = 0; attempt < 3; attempt++) {
         latest = await githubRead(env);
-        const conflicts = keys.filter((slot) => latest.state.slots[slot] !== patch.expected[slot] && latest.state.slots[slot] !== patch.changes[slot]);
+        const conflicts = keys.filter((key) => fieldValue(latest.state, key) !== patch.expected[key] && fieldValue(latest.state, key) !== patch.changes[key]);
         if (conflicts.length) return json({ error: 'Conflict', conflicts, state: latest.state }, 409);
-        const changed = keys.filter((slot) => latest.state.slots[slot] !== patch.changes[slot]);
+        const changed = keys.filter((key) => fieldValue(latest.state, key) !== patch.changes[key]);
         if (changed.length === 0) return json(latest.state);
-        const updated = { updatedAt: new Date().toISOString(), slots: { ...latest.state.slots, ...patch.changes } };
-        const content = btoa(JSON.stringify(updated, null, 2) + '\n');
+        const updated = { ...latest.state, updatedAt: new Date().toISOString(), slots: { ...latest.state.slots }, labels: { ...latest.state.labels } };
+        for (const key of changed) {
+          if (key === 'notes') updated.notes = patch.changes[key];
+          else if (key.startsWith('label:')) updated.labels[key.slice(6)] = patch.changes[key];
+          else updated.slots[key] = patch.changes[key];
+        }
+        const bytes = new TextEncoder().encode(JSON.stringify(updated, null, 2) + '\n');
+        const content = btoa(Array.from(bytes, (byte) => String.fromCharCode(byte)).join(''));
         const response = await fetch(CONTENTS_URL, {
           method: 'PUT', headers: githubHeaders(env.GITHUB_TOKEN), signal: AbortSignal.timeout(12000),
           body: JSON.stringify({
@@ -112,7 +132,7 @@ export default {
         if (response.status !== 409 && response.status !== 422) throw new Error('GitHub write failed');
       }
       latest = await githubRead(env);
-      return json({ error: 'Conflict', conflicts: keys.filter((slot) => latest.state.slots[slot] !== patch.expected[slot] && latest.state.slots[slot] !== patch.changes[slot]), state: latest.state }, 409);
+      return json({ error: 'Conflict', conflicts: keys.filter((key) => fieldValue(latest.state, key) !== patch.expected[key] && fieldValue(latest.state, key) !== patch.changes[key]), state: latest.state }, 409);
     } catch {
       return json({ error: 'Storage unavailable' }, 502);
     }

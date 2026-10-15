@@ -13,6 +13,7 @@ const SLOT_GROUPS = [
 const SLOTS = SLOT_GROUPS.flat();
 const $ = (id) => document.getElementById(id);
 const inputs = new Map();
+const fields = new Map();
 const baseline = {};
 const revisions = {};
 const dirty = new Set();
@@ -34,14 +35,30 @@ function quantity(input) {
   const value = normalize(input.value);
   return /^\d*$/.test(value) && Number.isSafeInteger(Number(value)) ? Number(value) : null;
 }
+function fieldValue(key) {
+  const input = fields.get(key);
+  return inputs.has(key) ? quantity(input) : input.value.length <= input.maxLength ? input.value : null;
+}
+function savedValue(latest, key) {
+  return key === 'notes' ? latest.notes : key.startsWith('label:') ? latest.labels[key.slice(6)] : latest.slots[key];
+}
 function updateDirty(slot) {
-  const input = inputs.get(slot);
-  const value = quantity(input);
-  input.setCustomValidity(value === null ? 'فقط عدد صحیح نامنفی وارد کنید' : '');
+  const input = fields.get(slot);
+  const value = fieldValue(slot);
+  input.setCustomValidity(value === null ? (inputs.has(slot) ? 'فقط عدد صحیح نامنفی وارد کنید' : 'متن بیش از حد طولانی است') : '');
   input.setAttribute('aria-invalid', String(value === null));
   if (value === null || value !== baseline[slot]) dirty.add(slot);
   else dirty.delete(slot);
   $('save').disabled = !state || writing || dirty.size === 0;
+}
+function registerTextField(key, input) {
+  fields.set(key, input);
+  revisions[key] = 0;
+  input.addEventListener('input', () => {
+    revisions[key]++;
+    updateDirty(key);
+    status('');
+  });
 }
 
 const fragment = document.createDocumentFragment();
@@ -62,6 +79,7 @@ for (const [groupIndex, group] of SLOT_GROUPS.entries()) {
     input.spellcheck = false;
     input.dir = 'ltr';
     input.pattern = '[0-9۰-۹٠-٩]*';
+    input.className = 'quantity';
     input.setAttribute('aria-label', `تعداد موردنیاز شماره ${slot}`);
     input.disabled = true;
     revisions[slot] = 0;
@@ -88,27 +106,48 @@ for (const [groupIndex, group] of SLOT_GROUPS.entries()) {
       }
     });
     inputs.set(slot, input);
-    row.append(label, input);
+    fields.set(slot, input);
+    const name = document.createElement('input');
+    name.id = `name-${slot}`;
+    name.type = 'text';
+    name.className = 'product-name';
+    name.maxLength = 120;
+    name.autocomplete = 'off';
+    name.enterKeyHint = 'next';
+    name.setAttribute('aria-label', `نام محصول شماره ${slot}`);
+    name.disabled = true;
+    registerTextField(`label:${slot}`, name);
+    name.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' && !event.isComposing) {
+        event.preventDefault();
+        input.focus();
+      }
+    });
+    row.append(label, name, input);
     fragment.append(row);
   }
 }
 $('slot-rows').append(fragment);
+registerTextField('notes', $('machine-notes'));
 
 function validState(value) {
   return value && value.slots && Object.keys(value.slots).length === SLOTS.length &&
-    SLOTS.every((slot) => Number.isSafeInteger(value.slots[slot]) && value.slots[slot] >= 0);
+    SLOTS.every((slot) => Number.isSafeInteger(value.slots[slot]) && value.slots[slot] >= 0) &&
+    (value.labels === undefined || (value.labels && SLOTS.every((slot) => typeof value.labels[slot] === 'string' && value.labels[slot].length <= 120))) &&
+    (value.notes === undefined || (typeof value.notes === 'string' && value.notes.length <= 5000));
 }
 function acceptState(latest, completed = null) {
   if (!validState(latest)) throw new Error('Invalid state');
-  state = latest;
-  for (const slot of SLOTS) {
-    const input = inputs.get(slot);
+  state = { ...latest, labels: latest.labels || Object.fromEntries(SLOTS.map((slot) => [slot, ''])), notes: latest.notes ?? '' };
+  for (const [slot, input] of fields) {
+    const value = savedValue(state, slot);
+    const displayValue = inputs.has(slot) ? (value > 0 ? String(value) : '') : value;
     if (completed && Object.hasOwn(completed, slot)) {
-      if (revisions[slot] === completed[slot]) input.value = latest.slots[slot] > 0 ? String(latest.slots[slot]) : '';
-      baseline[slot] = latest.slots[slot];
+      if (revisions[slot] === completed[slot]) input.value = displayValue;
+      baseline[slot] = value;
     } else if (!dirty.has(slot)) {
-      input.value = latest.slots[slot] > 0 ? String(latest.slots[slot]) : '';
-      baseline[slot] = latest.slots[slot];
+      input.value = displayValue;
+      baseline[slot] = value;
     }
     input.disabled = false;
     updateDirty(slot);
@@ -139,6 +178,7 @@ function renderRefills() {
       const next = SLOTS.slice(SLOTS.indexOf(slot) + 1).find((id) => refillItems.has(id));
       $('refill-list').insertBefore(item, next ? refillItems.get(next) : null);
     }
+    item.querySelector('h3').textContent = `شماره ${slot}` + (state.labels[slot] ? ` — ${state.labels[slot]}` : '');
     item.querySelector('p').textContent = `تعداد موردنیاز: ${state.slots[slot]}`;
     item.querySelector('button').disabled = writing;
   }
@@ -221,10 +261,11 @@ async function writeChanges(changes, expected, completed = null) {
         acceptState(result.state);
         // A further Save is an explicit retry against the newly displayed conflict.
         for (const slot of Object.keys(changes)) {
-          baseline[slot] = result.state.slots[slot];
+          baseline[slot] = savedValue(state, slot);
           updateDirty(slot);
         }
-        status('این شماره هم‌زمان تغییر کرده است. ' + (result.conflicts || []).join('، ') + (completed ? ' — برای ثبت دوباره، ذخیره را بزنید.' : ''));
+        const conflicts = (result.conflicts || []).map((key) => key === 'notes' ? 'یادداشت‌ها' : key.startsWith('label:') ? `نام شماره ${key.slice(6)}` : key);
+        status('این اطلاعات هم‌زمان تغییر کرده است. ' + conflicts.join('، ') + (completed ? ' — برای ثبت دوباره، ذخیره را بزنید.' : ''));
         return;
       }
       if (!response.ok) { status('خطا در ذخیره اطلاعات'); return; }
@@ -249,8 +290,8 @@ $('shortage-form').addEventListener('submit', (event) => {
   if (writing || !state || dirty.size === 0) return;
   const changes = {}, expected = {}, completed = {};
   for (const slot of dirty) {
-    const input = inputs.get(slot);
-    const value = quantity(input);
+    const input = fields.get(slot);
+    const value = fieldValue(slot);
     if (value === null) { input.focus(); input.reportValidity(); return; }
     changes[slot] = value;
     expected[slot] = baseline[slot];
