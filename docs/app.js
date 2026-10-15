@@ -28,6 +28,11 @@ let accessKey = '';
 try { accessKey = localStorage.getItem('vending-refill-access-key') || ''; } catch { /* Storage can be unavailable. */ }
 
 function status(message) { $('status').textContent = message; }
+function draftStatus() {
+  if (['', 'ذخیره شد', 'تغییرات ذخیره نشده'].includes($('status').textContent)) {
+    status(dirty.size ? 'تغییرات ذخیره نشده' : '');
+  }
+}
 function normalize(value) {
   return value.replace(/[۰-۹٠-٩]/g, (digit) => String(digit.charCodeAt(0) - (digit <= '٩' ? 0x660 : 0x6f0)));
 }
@@ -57,7 +62,7 @@ function registerTextField(key, input) {
   input.addEventListener('input', () => {
     revisions[key]++;
     updateDirty(key);
-    status('');
+    draftStatus();
   });
 }
 
@@ -88,7 +93,7 @@ for (const [groupIndex, group] of SLOT_GROUPS.entries()) {
       if (input.value !== normalized) input.value = normalized;
       revisions[slot]++;
       updateDirty(slot);
-      status('');
+      draftStatus();
     });
     input.addEventListener('keydown', (event) => {
       if (event.key !== 'Enter' || event.isComposing) return;
@@ -271,7 +276,7 @@ async function writeChanges(changes, expected, completed = null) {
       if (!response.ok) { status('خطا در ذخیره اطلاعات'); return; }
       acceptState(result, completed);
       rememberKey(key);
-      status('ذخیره شد');
+      status(dirty.size ? 'تغییرات ذخیره نشده' : 'ذخیره شد');
       return;
     }
   } catch (error) {
