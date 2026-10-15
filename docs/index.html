@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#176AA6">
+  <meta name="description" content="ثبت کسری و تأمین و شارژ دستگاه وندینگ">
+  <title>Vending Refill</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="panel">
+    <header><h1 dir="ltr">VENDING REFILL</h1></header>
+    <nav aria-label="بخش‌های برنامه" role="tablist">
+      <button id="entry-tab" type="button" role="tab" aria-selected="true" aria-controls="entry-panel">ثبت کسری</button>
+      <button id="refill-tab" type="button" role="tab" aria-selected="false" aria-controls="refill-panel" tabindex="-1">تأمین و شارژ</button>
+    </nav>
+    <p id="status" role="status" aria-live="polite">در حال دریافت اطلاعات...</p>
+    <section id="entry-panel" role="tabpanel" aria-labelledby="entry-tab">
+      <form id="shortage-form" novalidate>
+        <div class="column-head"><span>شماره</span><span>تعداد موردنیاز</span></div>
+        <div id="slot-rows"></div>
+        <div class="save-area"><button id="save" type="submit" disabled>ذخیره آمار</button></div>
+      </form>
+    </section>
+    <section id="refill-panel" role="tabpanel" aria-labelledby="refill-tab" hidden>
+      <h2>اقلام موردنیاز</h2>
+      <div id="refill-list"></div>
+      <p id="empty-refill" hidden>موردی برای شارژ وجود ندارد</p>
+    </section>
+  </main>
+  <dialog id="access-dialog" aria-labelledby="access-title">
+    <form id="access-form">
+      <h2 id="access-title">کد دسترسی</h2>
+      <p id="access-help">کد دسترسی را وارد کنید</p>
+      <input id="access-key" type="password" autocomplete="current-password" aria-label="کد دسترسی" aria-describedby="access-help" required autofocus>
+      <div class="dialog-actions">
+        <button type="submit">ادامه</button>
+        <button id="access-cancel" class="secondary" type="button">انصراف</button>
+      </div>
+    </form>
+  </dialog>
+</body>
+</html>
