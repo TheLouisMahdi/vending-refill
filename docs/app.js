@@ -11,6 +11,10 @@ const SLOT_GROUPS = [
   ['61', '62', '63', '64', '65', '66', '67', '68']
 ];
 const SLOTS = SLOT_GROUPS.flat();
+const iranDateTime = new Intl.DateTimeFormat('fa-IR-u-ca-persian', {
+  timeZone: 'Asia/Tehran', year: 'numeric', month: '2-digit', day: '2-digit',
+  hour: '2-digit', minute: '2-digit', hourCycle: 'h23'
+});
 const $ = (id) => document.getElementById(id);
 const inputs = new Map();
 const fields = new Map();
@@ -144,6 +148,16 @@ function validState(value) {
 function acceptState(latest, completed = null) {
   if (!validState(latest)) throw new Error('Invalid state');
   state = { ...latest, labels: latest.labels || Object.fromEntries(SLOTS.map((slot) => [slot, ''])), notes: latest.notes ?? '' };
+  for (const [id, value] of [['last-recorded', state.lastRecordedAt], ['last-refilled', state.lastRefilledAt]]) {
+    const time = $(id);
+    if (value && Number.isFinite(Date.parse(value))) {
+      time.dateTime = value;
+      time.textContent = iranDateTime.format(new Date(value));
+    } else {
+      time.removeAttribute('datetime');
+      time.textContent = '—';
+    }
+  }
   for (const [slot, input] of fields) {
     const value = savedValue(state, slot);
     const displayValue = inputs.has(slot) ? (value > 0 ? String(value) : '') : value;
@@ -177,7 +191,7 @@ function renderRefills() {
       const button = document.createElement('button');
       button.type = 'button';
       button.textContent = '✓ تأمین و شارژ شد';
-      button.addEventListener('click', () => writeChanges({ [slot]: 0 }, { [slot]: state.slots[slot] }));
+      button.addEventListener('click', () => writeChanges({ [slot]: 0 }, { [slot]: state.slots[slot] }, null, 'refill'));
       item.append(heading, count, button);
       refillItems.set(slot, item);
       const next = SLOTS.slice(SLOTS.indexOf(slot) + 1).find((id) => refillItems.has(id));
@@ -238,7 +252,7 @@ function rememberKey(key) {
     else localStorage.removeItem('vending-refill-access-key');
   } catch { /* Keep it in memory when browser storage is blocked. */ }
 }
-async function writeChanges(changes, expected, completed = null) {
+async function writeChanges(changes, expected, completed = null, operation = 'record') {
   if (writing || !state || Object.keys(changes).length === 0) return;
   writing = true;
   readVersion++;
@@ -253,7 +267,7 @@ async function writeChanges(changes, expected, completed = null) {
       const response = await fetch(`${API_URL}/slots`, {
         method: 'PATCH', cache: 'no-store',
         headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${key}` },
-        body: JSON.stringify({ changes, expected }),
+        body: JSON.stringify({ changes, expected, operation }),
         signal: AbortSignal.timeout(30000)
       });
       if (response.status === 401) {

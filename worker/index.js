@@ -10,6 +10,7 @@ const CONTENTS_URL = 'https://api.github.com/repos/TheLouisMahdi/vending-refill/
 const isObject = (value) => value !== null && typeof value === 'object' && !Array.isArray(value);
 const isQuantity = (value) => Number.isSafeInteger(value) && value >= 0;
 const isText = (value, limit) => typeof value === 'string' && value.length <= limit;
+const isTimestamp = (value) => value === null || (typeof value === 'string' && /^\d{4}-\d\d-\d\dT\d\d:\d\d:\d\d(?:\.\d{3})?Z$/.test(value) && Number.isFinite(Date.parse(value)));
 function validField(key, value) {
   if (SLOTS.includes(key)) return isQuantity(value);
   if (key.startsWith('label:') && SLOTS.includes(key.slice(6))) return isText(value, 120);
@@ -20,16 +21,20 @@ function fieldValue(state, key) {
 }
 
 function validState(state) {
-  return isObject(state) && Object.keys(state).every((key) => ['updatedAt', 'slots', 'labels', 'notes'].includes(key)) &&
-    (state.updatedAt === null || (typeof state.updatedAt === 'string' && /^\d{4}-\d\d-\d\dT\d\d:\d\d:\d\d(?:\.\d{3})?Z$/.test(state.updatedAt) && Number.isFinite(Date.parse(state.updatedAt)))) &&
+  return isObject(state) && Object.keys(state).every((key) => ['updatedAt', 'slots', 'labels', 'notes', 'lastRecordedAt', 'lastRefilledAt'].includes(key)) &&
+    isTimestamp(state.updatedAt) &&
+    (state.lastRecordedAt === undefined || isTimestamp(state.lastRecordedAt)) &&
+    (state.lastRefilledAt === undefined || isTimestamp(state.lastRefilledAt)) &&
     isObject(state.slots) && Object.keys(state.slots).length === SLOTS.length &&
     SLOTS.every((slot) => isQuantity(state.slots[slot])) &&
     (state.labels === undefined || (isObject(state.labels) && Object.keys(state.labels).length === SLOTS.length && SLOTS.every((slot) => isText(state.labels[slot], 120)))) &&
     (state.notes === undefined || isText(state.notes, 5000));
 }
 function validPatch(body) {
-  if (!isObject(body) || Object.keys(body).length !== 2 || !isObject(body.changes) || !isObject(body.expected)) return false;
+  if (!isObject(body) || !Object.keys(body).every((key) => ['changes', 'expected', 'operation'].includes(key)) || !isObject(body.changes) || !isObject(body.expected)) return false;
+  if (body.operation !== undefined && !['record', 'refill'].includes(body.operation)) return false;
   const keys = Object.keys(body.changes);
+  if (body.operation === 'refill' && (keys.length !== 1 || !SLOTS.includes(keys[0]) || body.changes[keys[0]] !== 0)) return false;
   return keys.length > 0 && keys.length <= SLOTS.length * 2 + 1 && Object.keys(body.expected).length === keys.length &&
     keys.every((key) => Object.hasOwn(body.expected, key) && validField(key, body.changes[key]) && validField(key, body.expected[key]));
 }
@@ -55,6 +60,8 @@ async function githubRead(env) {
   // Existing quantities stay intact; new fields are added on the next real write.
   state.labels ??= Object.fromEntries(SLOTS.map((slot) => [slot, '']));
   state.notes ??= '';
+  state.lastRecordedAt ??= null;
+  state.lastRefilledAt ??= null;
   return { state, sha: file.sha };
 }
 async function authorized(request, key) {
@@ -106,6 +113,8 @@ export default {
       try { patch = JSON.parse(text); } catch { return json({ error: 'Invalid JSON' }, 400); }
       if (!validPatch(patch)) return json({ error: 'Invalid slot changes' }, 400);
       const keys = Object.keys(patch.changes);
+      // Keep older open tabs compatible with the original single-slot refill payload.
+      const operation = patch.operation || (keys.length === 1 && SLOTS.includes(keys[0]) && patch.changes[keys[0]] === 0 ? 'refill' : 'record');
       let latest;
       for (let attempt = 0; attempt < 3; attempt++) {
         latest = await githubRead(env);
@@ -114,6 +123,7 @@ export default {
         const changed = keys.filter((key) => fieldValue(latest.state, key) !== patch.changes[key]);
         if (changed.length === 0) return json(latest.state);
         const updated = { ...latest.state, updatedAt: new Date().toISOString(), slots: { ...latest.state.slots }, labels: { ...latest.state.labels } };
+        updated[operation === 'refill' ? 'lastRefilledAt' : 'lastRecordedAt'] = updated.updatedAt;
         for (const key of changed) {
           if (key === 'notes') updated.notes = patch.changes[key];
           else if (key.startsWith('label:')) updated.labels[key.slice(6)] = patch.changes[key];
@@ -124,7 +134,7 @@ export default {
         const response = await fetch(CONTENTS_URL, {
           method: 'PUT', headers: githubHeaders(env.GITHUB_TOKEN), signal: AbortSignal.timeout(12000),
           body: JSON.stringify({
-            message: changed.length === 1 && patch.changes[changed[0]] === 0 ? `Refill vending slot ${changed[0]}` : 'Update vending shortages',
+            message: operation === 'refill' ? `Refill vending slot ${keys[0]}` : 'Update vending shortages',
             branch: 'main', sha: latest.sha, content
           })
         });

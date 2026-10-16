@@ -7,8 +7,8 @@
   <meta name="description" content="پنل UniCafe دانشگاه زنجان برای ثبت آمار و کسری دستگاه‌های وندینگ، تأمین و شارژ، آمار دستگاه قهوه و یادداشت‌های مشترک.">
   <meta name="application-name" content="UniCafe">
   <title>UniCafe | آمار و شارژ دستگاه‌ها · دانشگاه زنجان</title>
-  <link rel="stylesheet" href="styles.css?v=5">
-  <script src="app.js?v=3" defer></script>
+  <link rel="stylesheet" href="styles.css?v=6">
+  <script src="app.js?v=4" defer></script>
 </head>
 <body>
   <main class="panel">
@@ -18,6 +18,10 @@
         <span class="brand-campus">دانشگاه زنجان</span>
       </div>
       <p class="brand-description">سامانه ثبت آمار، کسری و شارژ دستگاه‌ها</p>
+      <div class="update-times" aria-label="زمان آخرین تغییرات">
+        <p>آخرین ثبت: <time id="last-recorded" dir="ltr">—</time></p>
+        <p>آخرین خروج از انبار: <time id="last-refilled" dir="ltr">—</time></p>
+      </div>
     </header>
     <nav aria-label="بخش‌های برنامه" role="tablist">
       <button id="entry-tab" type="button" role="tab" aria-selected="true" aria-controls="entry-panel">ثبت کسری</button>

@@ -22,6 +22,9 @@ h1 { margin: 0; color: var(--dark); font-size: 18px; font-weight: 750; letter-sp
 .brand-line { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
 .brand-campus { font-size: 13px; color: var(--dark); }
 .brand-description { margin: 4px 0 0; font-size: 12px; line-height: 1.6; color: var(--muted); }
+.update-times { margin-top: 6px; text-align: left; font-size: 11px; line-height: 1.7; color: var(--dark); }
+.update-times p { margin: 0; }
+.update-times time { display: inline-block; font-variant-numeric: tabular-nums; }
 h2 { margin: 0 0 16px; font-size: 16px; font-weight: 650; }
 nav { display: grid; grid-template-columns: 1fr 1fr; border-block: 1px solid var(--border); }
 button, input, textarea { font: inherit; min-height: 44px; border: 1px solid var(--border); }
