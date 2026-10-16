@@ -11,6 +11,9 @@ const SLOT_GROUPS = [
   ['61', '62', '63', '64', '65', '66', '67', '68']
 ];
 const SLOTS = SLOT_GROUPS.flat();
+const iranDate = new Intl.DateTimeFormat('fa-IR-u-ca-persian', {
+  timeZone: 'Asia/Tehran', weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
+});
 const iranDateTime = new Intl.DateTimeFormat('fa-IR-u-ca-persian', {
   timeZone: 'Asia/Tehran', year: 'numeric', month: '2-digit', day: '2-digit',
   hour: '2-digit', minute: '2-digit', hourCycle: 'h23'
@@ -32,6 +35,15 @@ let accessKey = '';
 try { accessKey = localStorage.getItem('vending-refill-access-key') || ''; } catch { /* Storage can be unavailable. */ }
 
 function status(message) { $('status').textContent = message; }
+function updateToday() {
+  const now = new Date();
+  const text = iranDate.format(now);
+  const time = $('today-date');
+  if (time.textContent !== text) {
+    time.dateTime = now.toISOString();
+    time.textContent = text;
+  }
+}
 function draftStatus() {
   if (['', 'ذخیره شد', 'تغییرات ذخیره نشده'].includes($('status').textContent)) {
     status(dirty.size ? 'تغییرات ذخیره نشده' : '');
@@ -338,7 +350,13 @@ for (const name of ['entry', 'refill']) {
     $(`${next}-tab`).focus();
   });
 }
-document.addEventListener('visibilitychange', () => { if (!document.hidden) void refresh(); });
+document.addEventListener('visibilitychange', () => { if (!document.hidden) { updateToday(); void refresh(); } });
 window.addEventListener('online', () => void refresh());
-setInterval(() => { if (!document.hidden && (activeTab === 'refill' || !state)) void refresh(); }, 30000);
+setInterval(() => {
+  if (!document.hidden) {
+    updateToday();
+    if (activeTab === 'refill' || !state) void refresh();
+  }
+}, 30000);
+updateToday();
 void refresh();
