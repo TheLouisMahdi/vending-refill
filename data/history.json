@@ -861,6 +861,204 @@
           "after": 1
         }
       ]
+    },
+    {
+      "id": "ea4946ef39dca5956794f466604c2f72ad5ac564",
+      "at": "2026-10-17T11:57:49.143Z",
+      "date": "1405/07/25",
+      "time": "15:27:49",
+      "operation": "record",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "13",
+          "product": "ساندویچ انار گردو",
+          "before": 2,
+          "after": 0
+        },
+        {
+          "field": "quantity",
+          "slot": "15",
+          "product": "ساندویچ مرغ",
+          "before": 4,
+          "after": 0
+        },
+        {
+          "field": "quantity",
+          "slot": "17",
+          "product": "ساندویچ بندری",
+          "before": 2,
+          "after": 0
+        },
+        {
+          "field": "quantity",
+          "slot": "21",
+          "product": "بایودنت نعناع",
+          "before": 0,
+          "after": 6
+        },
+        {
+          "field": "quantity",
+          "slot": "22",
+          "product": "نات بار زرد",
+          "before": 0,
+          "after": 3
+        },
+        {
+          "field": "quantity",
+          "slot": "25",
+          "product": "همپا ادامسی",
+          "before": 0,
+          "after": 3
+        },
+        {
+          "field": "quantity",
+          "slot": "26",
+          "product": "کلوچه نادری نارگیلی",
+          "before": 0,
+          "after": 2
+        },
+        {
+          "field": "quantity",
+          "slot": "27",
+          "product": "کلوچه نادری گردویی",
+          "before": 0,
+          "after": 3
+        },
+        {
+          "field": "quantity",
+          "slot": "32",
+          "product": "کوکی",
+          "before": 0,
+          "after": 2
+        },
+        {
+          "field": "quantity",
+          "slot": "34",
+          "product": "ویفر نادری کوچیک",
+          "before": 0,
+          "after": 2
+        },
+        {
+          "field": "quantity",
+          "slot": "37",
+          "product": "بادوم زمینی سرکه",
+          "before": 0,
+          "after": 6
+        },
+        {
+          "field": "quantity",
+          "slot": "38",
+          "product": "رول رول",
+          "before": 0,
+          "after": 3
+        },
+        {
+          "field": "quantity",
+          "slot": "41",
+          "product": "اب معدنی",
+          "before": 0,
+          "after": 3
+        },
+        {
+          "field": "quantity",
+          "slot": "45",
+          "product": "های بای نادری",
+          "before": 0,
+          "after": 20
+        },
+        {
+          "field": "quantity",
+          "slot": "47",
+          "product": "معینی پور",
+          "before": 0,
+          "after": 10
+        },
+        {
+          "field": "quantity",
+          "slot": "48",
+          "product": "پتی بور",
+          "before": 0,
+          "after": 2
+        },
+        {
+          "field": "quantity",
+          "slot": "51",
+          "product": "کیک میک شیفون",
+          "before": 0,
+          "after": 1
+        },
+        {
+          "field": "quantity",
+          "slot": "53",
+          "product": "شیر شکلات",
+          "before": 0,
+          "after": 21
+        },
+        {
+          "field": "quantity",
+          "slot": "55",
+          "product": "شیر قهوه",
+          "before": 0,
+          "after": 9
+        },
+        {
+          "field": "quantity",
+          "slot": "56",
+          "product": "سان استار انبه",
+          "before": 0,
+          "after": 6
+        },
+        {
+          "field": "quantity",
+          "slot": "57",
+          "product": "سان استار پرتقال",
+          "before": 0,
+          "after": 12
+        },
+        {
+          "field": "quantity",
+          "slot": "58",
+          "product": "وجین",
+          "before": 0,
+          "after": 10
+        },
+        {
+          "field": "quantity",
+          "slot": "61",
+          "product": "الوئه ورا",
+          "before": 0,
+          "after": 4
+        },
+        {
+          "field": "quantity",
+          "slot": "62",
+          "product": "پرو شیر",
+          "before": 0,
+          "after": 4
+        },
+        {
+          "field": "quantity",
+          "slot": "63",
+          "product": "سن ایچ پت پرتقال",
+          "before": 0,
+          "after": 2
+        },
+        {
+          "field": "quantity",
+          "slot": "66",
+          "product": "رانی",
+          "before": 0,
+          "after": 2
+        },
+        {
+          "field": "quantity",
+          "slot": "67",
+          "product": "لایف با قند",
+          "before": 1,
+          "after": 4
+        }
+      ]
     }
   ]
 }
