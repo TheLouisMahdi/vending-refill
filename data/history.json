@@ -1251,6 +1251,38 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "02e6345647ed0457a434c04058b0f0639149e7f6",
+      "at": "2026-10-17T12:08:01.662Z",
+      "date": "1405/07/25",
+      "time": "15:38:01",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "48",
+          "product": "پتی بور",
+          "before": 2,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "c36d03e545500b6d3aca98bb00a4d48bbcf07657",
+      "at": "2026-10-17T12:08:05.077Z",
+      "date": "1405/07/25",
+      "time": "15:38:05",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "47",
+          "product": "معینی پور",
+          "before": 10,
+          "after": 0
+        }
+      ]
     }
   ]
 }
