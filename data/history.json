@@ -1443,6 +1443,22 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "72e8626cb76763988b5cbfbe65325f3003957c7d",
+      "at": "2026-10-17T12:12:30.199Z",
+      "date": "1405/07/25",
+      "time": "15:42:30",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "22",
+          "product": "نات بار زرد",
+          "before": 3,
+          "after": 0
+        }
+      ]
     }
   ]
 }
