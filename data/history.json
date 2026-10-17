@@ -1347,6 +1347,22 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "3011c46e49079b09f246493c604be87c9fcc292e",
+      "at": "2026-10-17T12:11:32.176Z",
+      "date": "1405/07/25",
+      "time": "15:41:32",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "35",
+          "product": "کلوجه کاکائویی",
+          "before": 12,
+          "after": 0
+        }
+      ]
     }
   ]
 }
