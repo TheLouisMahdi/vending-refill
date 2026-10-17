@@ -1107,6 +1107,22 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "ed45f1ef47d2b898363a5917b2ea66483bd51672",
+      "at": "2026-10-17T12:00:35.766Z",
+      "date": "1405/07/25",
+      "time": "15:30:35",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "62",
+          "product": "پرو شیر",
+          "before": 4,
+          "after": 0
+        }
+      ]
     }
   ]
 }
