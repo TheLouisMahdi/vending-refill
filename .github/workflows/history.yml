@@ -1,0 +1,43 @@
+name: Update UniCafe history files
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - data/shortages.json
+      - scripts/export-history.mjs
+      - scripts/update-history-workbook.py
+      - .github/workflows/history.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: unicafe-history
+  cancel-in-progress: false
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - name: Export and publish history
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            git reset --hard origin/main
+            node scripts/export-history.mjs
+            python3 scripts/update-history-workbook.py
+            git add data/history.json data/unicafe-history.csv data/unicafe-history.xlsx
+            if git diff --cached --quiet; then exit 0; fi
+            git commit -m 'Update UniCafe history exports'
+            if git push origin HEAD:main; then exit 0; fi
+          done
+          echo 'History export could not catch up with new saves.' >&2
+          exit 1

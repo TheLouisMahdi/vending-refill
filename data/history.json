@@ -1,0 +1,799 @@
+{
+  "brand": "UniCafe دانشگاه زنجان",
+  "timeZone": "Asia/Tehran",
+  "calendar": "persian",
+  "source": "https://github.com/TheLouisMahdi/vending-refill/commits/main/data/shortages.json",
+  "events": [
+    {
+      "id": "3a58237bc22bf777efafd0c0ea788b6d93adf36c",
+      "at": "2026-10-15T19:11:53.303Z",
+      "date": "1405/07/23",
+      "time": "22:41:53",
+      "operation": "record",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "11",
+          "product": "تیتاپ نادری",
+          "before": 0,
+          "after": 4
+        },
+        {
+          "field": "product",
+          "slot": "11",
+          "product": "تیتاپ نادری",
+          "before": "",
+          "after": "تیتاپ نادری"
+        },
+        {
+          "field": "product",
+          "slot": "13",
+          "product": "ساندویچ",
+          "before": "",
+          "after": "ساندویچ"
+        },
+        {
+          "field": "product",
+          "slot": "15",
+          "product": "ساندویچ",
+          "before": "",
+          "after": "ساندویچ"
+        },
+        {
+          "field": "product",
+          "slot": "17",
+          "product": "ساندویچ",
+          "before": "",
+          "after": "ساندویچ"
+        }
+      ]
+    },
+    {
+      "id": "deac82c691a8f7d2978a8b38abea55d9ddc2cf07",
+      "at": "2026-10-15T19:46:19.824Z",
+      "date": "1405/07/23",
+      "time": "23:16:19",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "11",
+          "product": "تیتاپ نادری",
+          "before": 4,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "9422c9aa7d7384229e9dedb4577afbb5254374f7",
+      "at": "2026-10-16T09:09:32.203Z",
+      "date": "1405/07/24",
+      "time": "12:39:32",
+      "operation": "record",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "11",
+          "product": "تیتاپ نادری",
+          "before": 0,
+          "after": 5
+        },
+        {
+          "field": "quantity",
+          "slot": "13",
+          "product": "ساندویچ انار گردو",
+          "before": 0,
+          "after": 3
+        },
+        {
+          "field": "product",
+          "slot": "13",
+          "product": "ساندویچ انار گردو",
+          "before": "ساندویچ",
+          "after": "ساندویچ انار گردو"
+        },
+        {
+          "field": "quantity",
+          "slot": "15",
+          "product": "ساندویچ مرغ",
+          "before": 0,
+          "after": 6
+        },
+        {
+          "field": "product",
+          "slot": "15",
+          "product": "ساندویچ مرغ",
+          "before": "ساندویچ",
+          "after": "ساندویچ مرغ"
+        },
+        {
+          "field": "product",
+          "slot": "17",
+          "product": "ساندویچ بندری",
+          "before": "ساندویچ",
+          "after": "ساندویچ بندری"
+        },
+        {
+          "field": "product",
+          "slot": "21",
+          "product": "بایودنت نعناع",
+          "before": "",
+          "after": "بایودنت نعناع"
+        },
+        {
+          "field": "product",
+          "slot": "22",
+          "product": "نات بار زرد",
+          "before": "",
+          "after": "نات بار زرد"
+        },
+        {
+          "field": "product",
+          "slot": "23",
+          "product": "بایودنت توتی فروتی",
+          "before": "",
+          "after": "بایودنت توتی فروتی"
+        },
+        {
+          "field": "quantity",
+          "slot": "24",
+          "product": "همپا دراز",
+          "before": 0,
+          "after": 3
+        },
+        {
+          "field": "product",
+          "slot": "24",
+          "product": "همپا دراز",
+          "before": "",
+          "after": "همپا دراز"
+        },
+        {
+          "field": "quantity",
+          "slot": "25",
+          "product": "همپا ادامسی",
+          "before": 0,
+          "after": 3
+        },
+        {
+          "field": "product",
+          "slot": "25",
+          "product": "همپا ادامسی",
+          "before": "",
+          "after": "همپا ادامسی"
+        },
+        {
+          "field": "quantity",
+          "slot": "26",
+          "product": "کلوچه نادری نارگیلی",
+          "before": 0,
+          "after": 5
+        },
+        {
+          "field": "product",
+          "slot": "26",
+          "product": "کلوچه نادری نارگیلی",
+          "before": "",
+          "after": "کلوچه نادری نارگیلی"
+        },
+        {
+          "field": "quantity",
+          "slot": "27",
+          "product": "کلوچه نادری گردویی",
+          "before": 0,
+          "after": 9
+        },
+        {
+          "field": "product",
+          "slot": "27",
+          "product": "کلوچه نادری گردویی",
+          "before": "",
+          "after": "کلوچه نادری گردویی"
+        },
+        {
+          "field": "product",
+          "slot": "28",
+          "product": "کروسان",
+          "before": "",
+          "after": "کروسان"
+        },
+        {
+          "field": "product",
+          "slot": "31",
+          "product": "وافل",
+          "before": "",
+          "after": "وافل"
+        },
+        {
+          "field": "quantity",
+          "slot": "32",
+          "product": "کوکی",
+          "before": 0,
+          "after": 6
+        },
+        {
+          "field": "product",
+          "slot": "32",
+          "product": "کوکی",
+          "before": "",
+          "after": "کوکی"
+        },
+        {
+          "field": "quantity",
+          "slot": "33",
+          "product": "پاستیل",
+          "before": 0,
+          "after": 3
+        },
+        {
+          "field": "product",
+          "slot": "33",
+          "product": "پاستیل",
+          "before": "",
+          "after": "پاستیل"
+        },
+        {
+          "field": "product",
+          "slot": "34",
+          "product": "ویفر نادری کوچیک",
+          "before": "",
+          "after": "ویفر نادری کوچیک"
+        },
+        {
+          "field": "quantity",
+          "slot": "35",
+          "product": "کلوجه کاکائویی",
+          "before": 0,
+          "after": 4
+        },
+        {
+          "field": "product",
+          "slot": "35",
+          "product": "کلوجه کاکائویی",
+          "before": "",
+          "after": "کلوجه کاکائویی"
+        },
+        {
+          "field": "quantity",
+          "slot": "36",
+          "product": "آجیل",
+          "before": 0,
+          "after": 6
+        },
+        {
+          "field": "product",
+          "slot": "36",
+          "product": "آجیل",
+          "before": "",
+          "after": "آجیل"
+        },
+        {
+          "field": "quantity",
+          "slot": "37",
+          "product": "بادوم زمینی سرکه",
+          "before": 0,
+          "after": 7
+        },
+        {
+          "field": "product",
+          "slot": "37",
+          "product": "بادوم زمینی سرکه",
+          "before": "",
+          "after": "بادوم زمینی سرکه"
+        },
+        {
+          "field": "product",
+          "slot": "38",
+          "product": "رول رول",
+          "before": "",
+          "after": "رول رول"
+        },
+        {
+          "field": "quantity",
+          "slot": "41",
+          "product": "اب معدنی",
+          "before": 0,
+          "after": 3
+        },
+        {
+          "field": "product",
+          "slot": "41",
+          "product": "اب معدنی",
+          "before": "",
+          "after": "اب معدنی"
+        },
+        {
+          "field": "product",
+          "slot": "42",
+          "product": "اب معدنی",
+          "before": "",
+          "after": "اب معدنی"
+        },
+        {
+          "field": "product",
+          "slot": "43",
+          "product": "اب معدنی",
+          "before": "",
+          "after": "اب معدنی"
+        },
+        {
+          "field": "product",
+          "slot": "44",
+          "product": "اب معدنی",
+          "before": "",
+          "after": "اب معدنی"
+        },
+        {
+          "field": "product",
+          "slot": "45",
+          "product": "های بای نادری",
+          "before": "",
+          "after": "های بای نادری"
+        },
+        {
+          "field": "product",
+          "slot": "46",
+          "product": "توینکلز",
+          "before": "",
+          "after": "توینکلز"
+        },
+        {
+          "field": "product",
+          "slot": "47",
+          "product": "معینی پور",
+          "before": "",
+          "after": "معینی پور"
+        },
+        {
+          "field": "quantity",
+          "slot": "48",
+          "product": "پتی بور",
+          "before": 0,
+          "after": 5
+        },
+        {
+          "field": "product",
+          "slot": "48",
+          "product": "پتی بور",
+          "before": "",
+          "after": "پتی بور"
+        },
+        {
+          "field": "quantity",
+          "slot": "51",
+          "product": "کیک میک شیفون",
+          "before": 0,
+          "after": 2
+        },
+        {
+          "field": "product",
+          "slot": "51",
+          "product": "کیک میک شیفون",
+          "before": "",
+          "after": "کیک میک شیفون"
+        },
+        {
+          "field": "quantity",
+          "slot": "52",
+          "product": "تیتو مزمز",
+          "before": 0,
+          "after": 4
+        },
+        {
+          "field": "product",
+          "slot": "52",
+          "product": "تیتو مزمز",
+          "before": "",
+          "after": "تیتو مزمز"
+        },
+        {
+          "field": "product",
+          "slot": "53",
+          "product": "شیر شکلات",
+          "before": "",
+          "after": "شیر شکلات"
+        },
+        {
+          "field": "product",
+          "slot": "54",
+          "product": "رول رول با کلاس",
+          "before": "",
+          "after": "رول رول با کلاس"
+        },
+        {
+          "field": "product",
+          "slot": "55",
+          "product": "شیر قهوه",
+          "before": "",
+          "after": "شیر قهوه"
+        },
+        {
+          "field": "product",
+          "slot": "56",
+          "product": "سان استار انبه",
+          "before": "",
+          "after": "سان استار انبه"
+        },
+        {
+          "field": "product",
+          "slot": "57",
+          "product": "سان استار پرتقال",
+          "before": "",
+          "after": "سان استار پرتقال"
+        },
+        {
+          "field": "product",
+          "slot": "58",
+          "product": "وجین",
+          "before": "",
+          "after": "وجین"
+        },
+        {
+          "field": "product",
+          "slot": "61",
+          "product": "الوئه ورا",
+          "before": "",
+          "after": "الوئه ورا"
+        },
+        {
+          "field": "quantity",
+          "slot": "62",
+          "product": "پرو شیر",
+          "before": 0,
+          "after": 4
+        },
+        {
+          "field": "product",
+          "slot": "62",
+          "product": "پرو شیر",
+          "before": "",
+          "after": "پرو شیر"
+        },
+        {
+          "field": "product",
+          "slot": "63",
+          "product": "سن ایچ پت پرتقال",
+          "before": "",
+          "after": "سن ایچ پت پرتقال"
+        },
+        {
+          "field": "product",
+          "slot": "64",
+          "product": "ایس مانکی کاکتوس",
+          "before": "",
+          "after": "ایس مانکی کاکتوس"
+        },
+        {
+          "field": "product",
+          "slot": "65",
+          "product": "ایس مانکی کیوی",
+          "before": "",
+          "after": "ایس مانکی کیوی"
+        },
+        {
+          "field": "product",
+          "slot": "66",
+          "product": "رانی",
+          "before": "",
+          "after": "رانی"
+        },
+        {
+          "field": "quantity",
+          "slot": "67",
+          "product": "لایف با قند",
+          "before": 0,
+          "after": 4
+        },
+        {
+          "field": "product",
+          "slot": "67",
+          "product": "لایف با قند",
+          "before": "",
+          "after": "لایف با قند"
+        },
+        {
+          "field": "product",
+          "slot": "68",
+          "product": "لایف بدون قند",
+          "before": "",
+          "after": "لایف بدون قند"
+        },
+        {
+          "field": "notes",
+          "slot": "",
+          "product": "",
+          "before": "",
+          "after": "وجین رو یکم ردیفشو خالی کردم به نظر بیاد دوتا فروش رفته خیلی وقته ثابته"
+        }
+      ]
+    },
+    {
+      "id": "7a5cbafc2396e75dcac3df175b702c2591b0b8ce",
+      "at": "2026-10-17T05:47:53.197Z",
+      "date": "1405/07/25",
+      "time": "09:17:53",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "11",
+          "product": "تیتاپ نادری",
+          "before": 5,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "86145ae381046c299a3f58f3e750a998ed857803",
+      "at": "2026-10-17T05:47:58.167Z",
+      "date": "1405/07/25",
+      "time": "09:17:58",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "13",
+          "product": "ساندویچ انار گردو",
+          "before": 3,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "8cbfef9090d41a034734539a931bb0cb117f6368",
+      "at": "2026-10-17T05:48:01.693Z",
+      "date": "1405/07/25",
+      "time": "09:18:01",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "15",
+          "product": "ساندویچ مرغ",
+          "before": 6,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "723667cd285a1c99216a3880c5fc0732d5fe9957",
+      "at": "2026-10-17T05:48:04.273Z",
+      "date": "1405/07/25",
+      "time": "09:18:04",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "24",
+          "product": "همپا دراز",
+          "before": 3,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "84e74cfe9c6d04d67873c4994cf3ca6f7fe85f7a",
+      "at": "2026-10-17T05:48:06.177Z",
+      "date": "1405/07/25",
+      "time": "09:18:06",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "27",
+          "product": "کلوچه نادری گردویی",
+          "before": 9,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "42fdd748054a5d0af917734480c4ca55f848d99f",
+      "at": "2026-10-17T05:48:08.153Z",
+      "date": "1405/07/25",
+      "time": "09:18:08",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "37",
+          "product": "بادوم زمینی سرکه",
+          "before": 7,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "39ac61bdf4f6bd9c9ff804feda3741dea46eab9b",
+      "at": "2026-10-17T05:48:09.831Z",
+      "date": "1405/07/25",
+      "time": "09:18:09",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "25",
+          "product": "همپا ادامسی",
+          "before": 3,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "c72c97e061146e4adbccc444cd4872c2bf4b7367",
+      "at": "2026-10-17T05:48:11.280Z",
+      "date": "1405/07/25",
+      "time": "09:18:11",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "26",
+          "product": "کلوچه نادری نارگیلی",
+          "before": 5,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "bf94ca7aef8badca88f241cc6a8302d83cdcb383",
+      "at": "2026-10-17T05:48:12.857Z",
+      "date": "1405/07/25",
+      "time": "09:18:12",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "32",
+          "product": "کوکی",
+          "before": 6,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "eaaf8a4c01ce975babe2988c0c620212b8d6ba29",
+      "at": "2026-10-17T05:48:14.411Z",
+      "date": "1405/07/25",
+      "time": "09:18:14",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "33",
+          "product": "پاستیل",
+          "before": 3,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "5891938adf56672ad1c926c1002d5cae5a2e9d96",
+      "at": "2026-10-17T05:48:16.146Z",
+      "date": "1405/07/25",
+      "time": "09:18:16",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "35",
+          "product": "کلوجه کاکائویی",
+          "before": 4,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "11722c1ea016f7ee5be772376f65bb83578e2ad3",
+      "at": "2026-10-17T05:48:18.157Z",
+      "date": "1405/07/25",
+      "time": "09:18:18",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "36",
+          "product": "آجیل",
+          "before": 6,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "a8ff3d619fa663f724b1d5076ca8a89e398e0904",
+      "at": "2026-10-17T05:48:20.376Z",
+      "date": "1405/07/25",
+      "time": "09:18:20",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "41",
+          "product": "اب معدنی",
+          "before": 3,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "a805c9c23182ed0e8b5e94347aeb3a15fb29dea2",
+      "at": "2026-10-17T05:48:22.496Z",
+      "date": "1405/07/25",
+      "time": "09:18:22",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "48",
+          "product": "پتی بور",
+          "before": 5,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "ad336a97efb62a6113b224c8e65cff34f0fc13ef",
+      "at": "2026-10-17T05:48:24.228Z",
+      "date": "1405/07/25",
+      "time": "09:18:24",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "51",
+          "product": "کیک میک شیفون",
+          "before": 2,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "326a06b82137fb09e2f0f73a6fa1532d85abec18",
+      "at": "2026-10-17T05:48:27.158Z",
+      "date": "1405/07/25",
+      "time": "09:18:27",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "52",
+          "product": "تیتو مزمز",
+          "before": 4,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "42a5348cd6bba6b53cb5005f7b524f1a5323fe9d",
+      "at": "2026-10-17T05:48:29.665Z",
+      "date": "1405/07/25",
+      "time": "09:18:29",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "67",
+          "product": "لایف با قند",
+          "before": 4,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "371938f24f18f1344c5152e2aaf173def3efca66",
+      "at": "2026-10-17T05:48:32.315Z",
+      "date": "1405/07/25",
+      "time": "09:18:32",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "62",
+          "product": "پرو شیر",
+          "before": 4,
+          "after": 0
+        }
+      ]
+    }
+  ]
+}
