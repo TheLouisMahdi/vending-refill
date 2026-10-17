@@ -1203,6 +1203,22 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "751f8a76967518bde6816669fed372e93c895cce",
+      "at": "2026-10-17T12:05:52.488Z",
+      "date": "1405/07/25",
+      "time": "15:35:52",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "53",
+          "product": "شیر شکلات",
+          "before": 21,
+          "after": 0
+        }
+      ]
     }
   ]
 }
