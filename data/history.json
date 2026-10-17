@@ -1155,6 +1155,38 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "a734384c03df753f023c7ef2a267dde6a863e2ad",
+      "at": "2026-10-17T12:03:05.772Z",
+      "date": "1405/07/25",
+      "time": "15:33:05",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "57",
+          "product": "سان استار پرتقال",
+          "before": 12,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "28a1fcc537642ba9ad8183be158f6f055fc7d82f",
+      "at": "2026-10-17T12:03:13.529Z",
+      "date": "1405/07/25",
+      "time": "15:33:13",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "55",
+          "product": "شیر قهوه",
+          "before": 9,
+          "after": 0
+        }
+      ]
     }
   ]
 }
