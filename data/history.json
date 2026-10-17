@@ -1379,6 +1379,22 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "1ac801366bfa2628cc3ab346f217722374632bde",
+      "at": "2026-10-17T12:12:03.836Z",
+      "date": "1405/07/25",
+      "time": "15:42:03",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "32",
+          "product": "کوکی",
+          "before": 2,
+          "after": 0
+        }
+      ]
     }
   ]
 }
