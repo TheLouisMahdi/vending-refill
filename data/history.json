@@ -810,6 +810,57 @@
           "after": ""
         }
       ]
+    },
+    {
+      "id": "e824170718bfa69167d84e82e7a52859452ea811",
+      "at": "2026-10-17T09:29:31.285Z",
+      "date": "1405/07/25",
+      "time": "12:59:31",
+      "operation": "record",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "13",
+          "product": "ساندویچ انار گردو",
+          "before": 0,
+          "after": 2
+        },
+        {
+          "field": "quantity",
+          "slot": "15",
+          "product": "ساندویچ مرغ",
+          "before": 0,
+          "after": 4
+        },
+        {
+          "field": "quantity",
+          "slot": "17",
+          "product": "ساندویچ بندری",
+          "before": 0,
+          "after": 2
+        },
+        {
+          "field": "quantity",
+          "slot": "35",
+          "product": "کلوجه کاکائویی",
+          "before": 0,
+          "after": 12
+        },
+        {
+          "field": "quantity",
+          "slot": "54",
+          "product": "رول رول با کلاس",
+          "before": 0,
+          "after": 4
+        },
+        {
+          "field": "quantity",
+          "slot": "67",
+          "product": "لایف با قند",
+          "before": 0,
+          "after": 1
+        }
+      ]
     }
   ]
 }
