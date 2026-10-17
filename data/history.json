@@ -1075,6 +1075,22 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "19f5f6152ec23beff82d7a9bc1bb70bd80300f41",
+      "at": "2026-10-17T11:59:38.737Z",
+      "date": "1405/07/25",
+      "time": "15:29:38",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "66",
+          "product": "رانی",
+          "before": 2,
+          "after": 0
+        }
+      ]
     }
   ]
 }
