@@ -1363,6 +1363,22 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "8fa1a79db174c1cf96f780fe41c6fecf8514bb0a",
+      "at": "2026-10-17T12:11:43.000Z",
+      "date": "1405/07/25",
+      "time": "15:41:43",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "34",
+          "product": "ویفر نادری کوچیک",
+          "before": 2,
+          "after": 0
+        }
+      ]
     }
   ]
 }
