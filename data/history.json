@@ -1187,6 +1187,22 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "0be32d03533da453b1abce80398a4edc7cc623fd",
+      "at": "2026-10-17T12:03:18.167Z",
+      "date": "1405/07/25",
+      "time": "15:33:18",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "56",
+          "product": "سان استار انبه",
+          "before": 6,
+          "after": 0
+        }
+      ]
     }
   ]
 }
