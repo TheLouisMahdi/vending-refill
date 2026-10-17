@@ -1235,6 +1235,22 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "424ffdd738446fd30a4ea08de0aba2f40b0f84ee",
+      "at": "2026-10-17T12:06:57.215Z",
+      "date": "1405/07/25",
+      "time": "15:36:57",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "51",
+          "product": "کیک میک شیفون",
+          "before": 1,
+          "after": 0
+        }
+      ]
     }
   ]
 }
