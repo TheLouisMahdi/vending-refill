@@ -27,6 +27,7 @@ const dirty = new Set();
 const refillItems = new Map();
 let state = null;
 let writing = false;
+let refillingAll = false;
 let readVersion = 0;
 let reading = false;
 let readController = null;
@@ -211,10 +212,28 @@ function renderRefills() {
     }
     item.querySelector('h3').textContent = `شماره ${slot}` + (state.labels[slot] ? ` — ${state.labels[slot]}` : '');
     item.querySelector('p').textContent = `تعداد موردنیاز: ${state.slots[slot]}`;
-    item.querySelector('button').disabled = writing;
+    item.querySelector('button').disabled = writing || refillingAll;
   }
   $('empty-refill').hidden = refillItems.size !== 0;
+  $('refill-all').hidden = refillItems.size === 0;
+  $('refill-all').disabled = writing || refillingAll;
 }
+
+$('refill-all').addEventListener('click', async () => {
+  if (writing || refillingAll || !state) return;
+  const pending = SLOTS.filter((slot) => state.slots[slot] > 0).map((slot) => [slot, state.slots[slot]]);
+  refillingAll = true;
+  renderRefills();
+  try {
+    // Use the existing single-slot API so each refill keeps its own history.
+    for (const [slot, count] of pending) {
+      if (!await writeChanges({ [slot]: 0 }, { [slot]: count }, null, 'refill')) break;
+    }
+  } finally {
+    refillingAll = false;
+    renderRefills();
+  }
+});
 
 async function refresh() {
   if (!API_URL) { status('نشانی API تنظیم نشده است'); return; }
@@ -303,7 +322,7 @@ async function writeChanges(changes, expected, completed = null, operation = 're
       acceptState(result, completed);
       rememberKey(key);
       status(dirty.size ? 'تغییرات ذخیره نشده' : 'ذخیره شد');
-      return;
+      return true;
     }
   } catch (error) {
     status(error instanceof TypeError || error.name === 'TimeoutError' ? 'اتصال برقرار نشد' : 'خطا در ذخیره اطلاعات');

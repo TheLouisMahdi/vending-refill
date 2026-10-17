@@ -52,7 +52,7 @@ nav button[aria-selected="true"] { background: var(--blue); color: #FFFFFF; }
 .notes-area label { display: block; margin-bottom: 8px; font-size: 14px; font-weight: 650; }
 .notes-area textarea { display: block; width: 100%; min-height: 140px; padding: 10px; resize: vertical; color: var(--text); background: var(--input); line-height: 1.8; }
 .save-area { padding: 8px 10px; border-top: 1px solid var(--border); background: var(--surface); }
-#save { width: 100%; }
+#save, #refill-all { width: 100%; }
 #refill-panel { padding: 8px 10px 10px; }
 #refill-panel h2 { margin-bottom: 8px; }
 .refill-item { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 2px 10px; border-top: 1px solid var(--border); padding-block: 8px; }
