@@ -1395,6 +1395,54 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "eaa4af63cafeda0d7bcb3f1cb830f7efe4ecf6b2",
+      "at": "2026-10-17T12:12:19.428Z",
+      "date": "1405/07/25",
+      "time": "15:42:19",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "27",
+          "product": "کلوچه نادری گردویی",
+          "before": 3,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "9597046886ed94fa80aa2973fc06435f42dbabea",
+      "at": "2026-10-17T12:12:22.998Z",
+      "date": "1405/07/25",
+      "time": "15:42:22",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "26",
+          "product": "کلوچه نادری نارگیلی",
+          "before": 2,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "4532ef35d5b10924aa1104f81ae27eca269a2c77",
+      "at": "2026-10-17T12:12:26.253Z",
+      "date": "1405/07/25",
+      "time": "15:42:26",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "25",
+          "product": "همپا ادامسی",
+          "before": 3,
+          "after": 0
+        }
+      ]
     }
   ]
 }
