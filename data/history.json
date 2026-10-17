@@ -1139,6 +1139,22 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "5edabb20bb3910a5b68b54d83ba4897238c0211b",
+      "at": "2026-10-17T12:01:30.171Z",
+      "date": "1405/07/25",
+      "time": "15:31:30",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "58",
+          "product": "وجین",
+          "before": 10,
+          "after": 0
+        }
+      ]
     }
   ]
 }
