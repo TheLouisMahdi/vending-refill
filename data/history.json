@@ -1331,6 +1331,22 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "fc273ef153ea3af542db4dfebea5870d95391aaa",
+      "at": "2026-10-17T12:10:51.180Z",
+      "date": "1405/07/25",
+      "time": "15:40:51",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "37",
+          "product": "بادوم زمینی سرکه",
+          "before": 6,
+          "after": 0
+        }
+      ]
     }
   ]
 }
