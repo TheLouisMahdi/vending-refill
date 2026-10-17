@@ -1059,6 +1059,22 @@
           "after": 4
         }
       ]
+    },
+    {
+      "id": "bd714591b4e05c6481c0ac7cac62fdd0cc68c741",
+      "at": "2026-10-17T11:59:24.333Z",
+      "date": "1405/07/25",
+      "time": "15:29:24",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "67",
+          "product": "لایف با قند",
+          "before": 4,
+          "after": 0
+        }
+      ]
     }
   ]
 }
