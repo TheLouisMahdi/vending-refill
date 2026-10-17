@@ -1315,6 +1315,22 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "94cab5e73223ad7972fee73780b2a318ddd625d7",
+      "at": "2026-10-17T12:10:28.834Z",
+      "date": "1405/07/25",
+      "time": "15:40:28",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "38",
+          "product": "رول رول",
+          "before": 3,
+          "after": 0
+        }
+      ]
     }
   ]
 }
