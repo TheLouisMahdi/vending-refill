@@ -1621,6 +1621,22 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "b6ff085255043da278cf831c6af8b1d52ddb8455",
+      "at": "2026-10-18T07:53:28.285Z",
+      "date": "1405/07/26",
+      "time": "11:23:28",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "48",
+          "product": "پتی بور",
+          "before": 1,
+          "after": 0
+        }
+      ]
     }
   ]
 }
