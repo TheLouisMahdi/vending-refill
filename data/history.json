@@ -1813,6 +1813,43 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "273bdaed5876e1f58987f58e778d00124c3bfbd4",
+      "at": "2026-10-18T16:18:45.129Z",
+      "date": "1405/07/26",
+      "time": "19:48:45",
+      "operation": "record",
+      "changes": [
+        {
+          "field": "product",
+          "slot": "22",
+          "product": "تیتو مزمز",
+          "before": "نات بار زرد",
+          "after": "تیتو مزمز"
+        },
+        {
+          "field": "product",
+          "slot": "23",
+          "product": "نات بار زرد",
+          "before": "بایودنت توتی فروتی",
+          "after": "نات بار زرد"
+        },
+        {
+          "field": "product",
+          "slot": "46",
+          "product": "معینی پور",
+          "before": "توینکلز",
+          "after": "معینی پور"
+        },
+        {
+          "field": "product",
+          "slot": "52",
+          "product": "توینکلز",
+          "before": "تیتو مزمز",
+          "after": "توینکلز"
+        }
+      ]
     }
   ]
 }
