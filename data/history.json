@@ -1475,6 +1475,120 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "248ba84252aa687fbcf100e93db2b5ecb37421e6",
+      "at": "2026-10-18T06:53:20.850Z",
+      "date": "1405/07/26",
+      "time": "10:23:20",
+      "operation": "record",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "28",
+          "product": "کروسان",
+          "before": 0,
+          "after": 12
+        },
+        {
+          "field": "quantity",
+          "slot": "31",
+          "product": "وافل",
+          "before": 0,
+          "after": 6
+        },
+        {
+          "field": "quantity",
+          "slot": "32",
+          "product": "کوکی",
+          "before": 0,
+          "after": 4
+        },
+        {
+          "field": "quantity",
+          "slot": "34",
+          "product": "ویفر نادری کوچیک",
+          "before": 0,
+          "after": 1
+        },
+        {
+          "field": "quantity",
+          "slot": "35",
+          "product": "کلوجه کاکائویی",
+          "before": 0,
+          "after": 4
+        },
+        {
+          "field": "quantity",
+          "slot": "37",
+          "product": "بادوم زمینی سرکه",
+          "before": 0,
+          "after": 4
+        },
+        {
+          "field": "quantity",
+          "slot": "38",
+          "product": "رول رول",
+          "before": 0,
+          "after": 2
+        },
+        {
+          "field": "quantity",
+          "slot": "41",
+          "product": "اب معدنی",
+          "before": 0,
+          "after": 2
+        },
+        {
+          "field": "quantity",
+          "slot": "45",
+          "product": "های بای نادری",
+          "before": 0,
+          "after": 10
+        },
+        {
+          "field": "quantity",
+          "slot": "46",
+          "product": "توینکلز",
+          "before": 0,
+          "after": 4
+        },
+        {
+          "field": "quantity",
+          "slot": "47",
+          "product": "معینی پور",
+          "before": 0,
+          "after": 10
+        },
+        {
+          "field": "quantity",
+          "slot": "48",
+          "product": "پتی بور",
+          "before": 0,
+          "after": 1
+        },
+        {
+          "field": "quantity",
+          "slot": "52",
+          "product": "تیتو مزمز",
+          "before": 0,
+          "after": 4
+        },
+        {
+          "field": "quantity",
+          "slot": "61",
+          "product": "الوئه ورا",
+          "before": 0,
+          "after": 4
+        },
+        {
+          "field": "notes",
+          "slot": "",
+          "product": "",
+          "before": "",
+          "after": "۰ض"
+        }
+      ]
     }
   ]
 }
