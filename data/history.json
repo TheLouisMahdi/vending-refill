@@ -1589,6 +1589,22 @@
           "after": "۰ض"
         }
       ]
+    },
+    {
+      "id": "d3896532ce03ea4017957d857a49373f1f5cd5b2",
+      "at": "2026-10-18T07:52:44.757Z",
+      "date": "1405/07/26",
+      "time": "11:22:44",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "61",
+          "product": "الوئه ورا",
+          "before": 4,
+          "after": 0
+        }
+      ]
     }
   ]
 }
