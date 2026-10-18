@@ -1653,6 +1653,22 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "fee870ae5fcb98445b9367aca4f512cab52eae3b",
+      "at": "2026-10-18T07:55:36.940Z",
+      "date": "1405/07/26",
+      "time": "11:25:36",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "46",
+          "product": "توینکلز",
+          "before": 4,
+          "after": 0
+        }
+      ]
     }
   ]
 }
