@@ -1605,6 +1605,22 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "ef75a4eac92ced39b5528e09a8e835c00b3a433f",
+      "at": "2026-10-18T07:53:18.458Z",
+      "date": "1405/07/26",
+      "time": "11:23:18",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "52",
+          "product": "تیتو مزمز",
+          "before": 4,
+          "after": 0
+        }
+      ]
     }
   ]
 }
