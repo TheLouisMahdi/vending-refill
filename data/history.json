@@ -2531,6 +2531,38 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "65b620771258fd4cbf7ae8c7823ed547b1e44fd1",
+      "at": "2026-10-19T13:25:39.699Z",
+      "date": "1405/07/27",
+      "time": "16:55:39",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "65",
+          "product": "ایس مانکی کیوی",
+          "before": 4,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "959f270dc0b2b460f5a2308f8aaf5253a6ddf213",
+      "at": "2026-10-19T13:25:41.679Z",
+      "date": "1405/07/27",
+      "time": "16:55:41",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "66",
+          "product": "رانی",
+          "before": 2,
+          "after": 0
+        }
+      ]
     }
   ]
 }
