@@ -2371,6 +2371,70 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "67fc9e41b1dd7ca0d665fb7b19b959e7000648b2",
+      "at": "2026-10-19T13:24:19.730Z",
+      "date": "1405/07/27",
+      "time": "16:54:19",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "34",
+          "product": "ویفر نادری کوچیک",
+          "before": 4,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "41763b3738858f8b78e4507b08a99dcc35c0dd3b",
+      "at": "2026-10-19T13:24:21.995Z",
+      "date": "1405/07/27",
+      "time": "16:54:21",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "35",
+          "product": "کلوجه کاکائویی",
+          "before": 12,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "e562bc00abf47acdde0b44aaf9048e8fe24ac25d",
+      "at": "2026-10-19T13:24:24.829Z",
+      "date": "1405/07/27",
+      "time": "16:54:24",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "38",
+          "product": "رول رول",
+          "before": 4,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "a426c783278dd53873542b3aba088eaae6734a9d",
+      "at": "2026-10-19T13:24:26.441Z",
+      "date": "1405/07/27",
+      "time": "16:54:26",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "41",
+          "product": "اب معدنی",
+          "before": 3,
+          "after": 0
+        }
+      ]
     }
   ]
 }
