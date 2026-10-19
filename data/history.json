@@ -2124,6 +2124,54 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "8d4fd5b8235be298ee493b49aa15ab5d95bf77a3",
+      "at": "2026-10-19T06:19:39.050Z",
+      "date": "1405/07/27",
+      "time": "09:49:39",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "53",
+          "product": "شیر شکلات",
+          "before": 9,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "00877afcb8dedc95a30b95d377f10d1ff3b9ec97",
+      "at": "2026-10-19T06:19:41.235Z",
+      "date": "1405/07/27",
+      "time": "09:49:41",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "55",
+          "product": "شیر قهوه",
+          "before": 6,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "facf497498edda6a5dd7eb0de2e98e158674cf17",
+      "at": "2026-10-19T06:19:45.456Z",
+      "date": "1405/07/27",
+      "time": "09:49:45",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "57",
+          "product": "سان استار هلو",
+          "before": 4,
+          "after": 0
+        }
+      ]
     }
   ]
 }
