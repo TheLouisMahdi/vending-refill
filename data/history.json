@@ -1980,6 +1980,70 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "1c85b2ad647e379925e6e4cf8bb762da21983775",
+      "at": "2026-10-19T06:16:06.740Z",
+      "date": "1405/07/27",
+      "time": "09:46:06",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "23",
+          "product": "نات بار زرد",
+          "before": 4,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "126c5eaa6ab52edf7f9d8cf1a38cacda258f6aa3",
+      "at": "2026-10-19T06:16:09.816Z",
+      "date": "1405/07/27",
+      "time": "09:46:09",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "24",
+          "product": "همپا دراز",
+          "before": 5,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "b7f8c6cfb9a19f489a4928f17df8377c5843ee8d",
+      "at": "2026-10-19T06:16:13.621Z",
+      "date": "1405/07/27",
+      "time": "09:46:13",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "28",
+          "product": "کروسان",
+          "before": 12,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "5e7b23f0d0b1dc05d902553a8d2aa60ba31ebfcf",
+      "at": "2026-10-19T06:16:16.548Z",
+      "date": "1405/07/27",
+      "time": "09:46:16",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "32",
+          "product": "کوکی",
+          "before": 5,
+          "after": 0
+        }
+      ]
     }
   ]
 }
