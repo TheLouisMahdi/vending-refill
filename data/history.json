@@ -2563,6 +2563,38 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "4a42bfa2dea6b5edeb2fdb4271d273d8cf80a29a",
+      "at": "2026-10-19T13:26:54.566Z",
+      "date": "1405/07/27",
+      "time": "16:56:54",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "67",
+          "product": "لایف با قند",
+          "before": 2,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "3b54e1547a5fd6d00baf0bed9b8174298c504a2e",
+      "at": "2026-10-19T13:26:57.859Z",
+      "date": "1405/07/27",
+      "time": "16:56:57",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "68",
+          "product": "لایف بدون قند",
+          "before": 6,
+          "after": 0
+        }
+      ]
     }
   ]
 }
