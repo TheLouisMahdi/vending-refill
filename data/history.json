@@ -2435,6 +2435,86 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "5e27d70fddc032058b784210732ae3a411b63533",
+      "at": "2026-10-19T13:25:10.701Z",
+      "date": "1405/07/27",
+      "time": "16:55:10",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "51",
+          "product": "کیک میک شیفون",
+          "before": 1,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "f8eb887666f4b650c3f2d4269e60ac1316a61f9b",
+      "at": "2026-10-19T13:25:13.088Z",
+      "date": "1405/07/27",
+      "time": "16:55:13",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "52",
+          "product": "توینکلز",
+          "before": 2,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "f2aec2362b2625ee7665f31414a81133acdb6130",
+      "at": "2026-10-19T13:25:17.305Z",
+      "date": "1405/07/27",
+      "time": "16:55:17",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "54",
+          "product": "رول رول با کلاس",
+          "before": 10,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "6c4facd4494041ebae02fd7efa721d208ef5c6c2",
+      "at": "2026-10-19T13:25:20.355Z",
+      "date": "1405/07/27",
+      "time": "16:55:20",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "55",
+          "product": "شیر قهوه",
+          "before": 18,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "a6cf645ea875219e82cb8a1ef07e5e9acc3dd3e4",
+      "at": "2026-10-19T13:25:22.493Z",
+      "date": "1405/07/27",
+      "time": "16:55:22",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "62",
+          "product": "پرو شیر",
+          "before": 4,
+          "after": 0
+        }
+      ]
     }
   ]
 }
