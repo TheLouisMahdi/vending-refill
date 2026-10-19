@@ -2627,6 +2627,92 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "8b43f94d56185babee5554b8a163f08097064dad",
+      "at": "2026-10-19T17:34:56.704Z",
+      "date": "1405/07/27",
+      "time": "21:04:56",
+      "operation": "record",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "22",
+          "product": "تیتو مزمز",
+          "before": 0,
+          "after": 5
+        },
+        {
+          "field": "quantity",
+          "slot": "23",
+          "product": "نات بار زرد",
+          "before": 0,
+          "after": 5
+        },
+        {
+          "field": "quantity",
+          "slot": "28",
+          "product": "کروسان",
+          "before": 0,
+          "after": 10
+        },
+        {
+          "field": "quantity",
+          "slot": "34",
+          "product": "ویفر نادری کوچیک",
+          "before": 0,
+          "after": 7
+        },
+        {
+          "field": "quantity",
+          "slot": "35",
+          "product": "کلوجه کاکائویی",
+          "before": 0,
+          "after": 10
+        },
+        {
+          "field": "quantity",
+          "slot": "52",
+          "product": "توینکلز",
+          "before": 0,
+          "after": 5
+        },
+        {
+          "field": "quantity",
+          "slot": "54",
+          "product": "رول رول با کلاس",
+          "before": 0,
+          "after": 7
+        },
+        {
+          "field": "quantity",
+          "slot": "55",
+          "product": "شیر قهوه",
+          "before": 0,
+          "after": 10
+        },
+        {
+          "field": "quantity",
+          "slot": "62",
+          "product": "پرو شیر",
+          "before": 0,
+          "after": 2
+        },
+        {
+          "field": "quantity",
+          "slot": "68",
+          "product": "لایف بدون قند",
+          "before": 0,
+          "after": 2
+        },
+        {
+          "field": "notes",
+          "slot": "",
+          "product": "",
+          "before": "وجین رو تا انتها پر نکنید بذارید فکر کنن کسی خریده .",
+          "after": "ساندویچ ها همگی تموم شدن"
+        }
+      ]
     }
   ]
 }
