@@ -2713,6 +2713,50 @@
           "after": "ساندویچ ها همگی تموم شدن"
         }
       ]
+    },
+    {
+      "id": "b44b2597f7c14356ada4f9143631cfd7bdf10693",
+      "at": "2026-10-19T19:19:47.432Z",
+      "date": "1405/07/27",
+      "time": "22:49:47",
+      "operation": "record",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "37",
+          "product": "بادوم زمینی سرکه",
+          "before": 0,
+          "after": 6
+        },
+        {
+          "field": "quantity",
+          "slot": "41",
+          "product": "اب معدنی",
+          "before": 0,
+          "after": 2
+        },
+        {
+          "field": "quantity",
+          "slot": "45",
+          "product": "های بای نادری",
+          "before": 0,
+          "after": 9
+        },
+        {
+          "field": "quantity",
+          "slot": "46",
+          "product": "معینی پور",
+          "before": 0,
+          "after": 12
+        },
+        {
+          "field": "quantity",
+          "slot": "51",
+          "product": "کیک میک شیفون",
+          "before": 0,
+          "after": 3
+        }
+      ]
     }
   ]
 }
