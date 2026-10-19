@@ -2611,6 +2611,22 @@
           "after": 1
         }
       ]
+    },
+    {
+      "id": "4ceab408f0c5c8e6e0759bbd8e42206de9d892bc",
+      "at": "2026-10-19T16:07:34.328Z",
+      "date": "1405/07/27",
+      "time": "19:37:34",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "11",
+          "product": "تیتاپ نادری",
+          "before": 1,
+          "after": 0
+        }
+      ]
     }
   ]
 }
