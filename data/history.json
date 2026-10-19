@@ -2515,6 +2515,22 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "f5b7aad4c36d671fba5ec2dbfc463e03e6421297",
+      "at": "2026-10-19T13:25:29.103Z",
+      "date": "1405/07/27",
+      "time": "16:55:29",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "64",
+          "product": "ایس مانکی کاکتوس",
+          "before": 2,
+          "after": 0
+        }
+      ]
     }
   ]
 }
