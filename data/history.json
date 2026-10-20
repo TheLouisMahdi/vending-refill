@@ -2757,6 +2757,246 @@
           "after": 3
         }
       ]
+    },
+    {
+      "id": "ab97f5741e04df34542075783a7945a8cd513793",
+      "at": "2026-10-20T05:12:41.365Z",
+      "date": "1405/07/28",
+      "time": "08:42:41",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "22",
+          "product": "تیتو مزمز",
+          "before": 5,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "370ef9a3de3b544fa37208b91e44d82683b8d1d3",
+      "at": "2026-10-20T05:12:43.110Z",
+      "date": "1405/07/28",
+      "time": "08:42:43",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "23",
+          "product": "نات بار زرد",
+          "before": 5,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "9088795df3ad4a408f7b3cd69177e5fbe1b9f8ec",
+      "at": "2026-10-20T05:12:44.894Z",
+      "date": "1405/07/28",
+      "time": "08:42:44",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "28",
+          "product": "کروسان",
+          "before": 10,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "687627cf324fa7bda8a6beaa560e30acce97db56",
+      "at": "2026-10-20T05:12:46.561Z",
+      "date": "1405/07/28",
+      "time": "08:42:46",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "34",
+          "product": "ویفر نادری کوچیک",
+          "before": 7,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "1ff922523fc8a669a1b9813a5ec574547ebe6612",
+      "at": "2026-10-20T05:12:48.171Z",
+      "date": "1405/07/28",
+      "time": "08:42:48",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "35",
+          "product": "کلوجه کاکائویی",
+          "before": 10,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "fb5c9804c2740c670367dc570a1f4a1752ecd8aa",
+      "at": "2026-10-20T05:12:49.919Z",
+      "date": "1405/07/28",
+      "time": "08:42:49",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "37",
+          "product": "بادوم زمینی سرکه",
+          "before": 6,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "3ba218e7641f2773fb2e7ec67d55bdfc51ad1e35",
+      "at": "2026-10-20T05:12:51.520Z",
+      "date": "1405/07/28",
+      "time": "08:42:51",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "41",
+          "product": "اب معدنی",
+          "before": 2,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "47eb660e4abd5dcb98f3ea51527e064d451e1a7b",
+      "at": "2026-10-20T05:12:53.237Z",
+      "date": "1405/07/28",
+      "time": "08:42:53",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "45",
+          "product": "های بای نادری",
+          "before": 9,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "25bf2d68dce0abcd67c755765f39b406ef2dc2f0",
+      "at": "2026-10-20T05:12:54.889Z",
+      "date": "1405/07/28",
+      "time": "08:42:54",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "46",
+          "product": "معینی پور",
+          "before": 12,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "3bc32fa704b28b9819c990df0b5d280df7770995",
+      "at": "2026-10-20T05:12:56.997Z",
+      "date": "1405/07/28",
+      "time": "08:42:56",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "51",
+          "product": "کیک میک شیفون",
+          "before": 3,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "78053bfddad8231cee38ec1480ab55432af1b371",
+      "at": "2026-10-20T05:12:58.799Z",
+      "date": "1405/07/28",
+      "time": "08:42:58",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "52",
+          "product": "توینکلز",
+          "before": 5,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "eb10752aa35b7b723e4a525e9772919532bc52bb",
+      "at": "2026-10-20T05:13:00.334Z",
+      "date": "1405/07/28",
+      "time": "08:43:00",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "54",
+          "product": "رول رول با کلاس",
+          "before": 7,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "e4100d8588c4b9fb8710a62d2df32dae80bdbc8a",
+      "at": "2026-10-20T05:13:02.082Z",
+      "date": "1405/07/28",
+      "time": "08:43:02",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "55",
+          "product": "شیر قهوه",
+          "before": 10,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "793c5d8a265a4356b6b0f4f2142e55dabda6bad0",
+      "at": "2026-10-20T05:13:03.907Z",
+      "date": "1405/07/28",
+      "time": "08:43:03",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "62",
+          "product": "پرو شیر",
+          "before": 2,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "62fa669d16d49df067582c549ccf168b66331840",
+      "at": "2026-10-20T05:13:05.794Z",
+      "date": "1405/07/28",
+      "time": "08:43:05",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "68",
+          "product": "لایف بدون قند",
+          "before": 2,
+          "after": 0
+        }
+      ]
     }
   ]
 }
