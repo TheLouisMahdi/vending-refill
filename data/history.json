@@ -3020,6 +3020,169 @@
           "after": ""
         }
       ]
+    },
+    {
+      "id": "1ec3f2c8e7d99bf05e80c29d1e03a149e1a8ba29",
+      "at": "2026-10-23T13:22:30.667Z",
+      "date": "1405/08/01",
+      "time": "16:52:30",
+      "operation": "record",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "11",
+          "product": "تیتاپ نادری",
+          "before": 0,
+          "after": 6
+        },
+        {
+          "field": "quantity",
+          "slot": "13",
+          "product": "ساندویچ انار گردو",
+          "before": 0,
+          "after": 3
+        },
+        {
+          "field": "quantity",
+          "slot": "15",
+          "product": "ساندویچ مرغ",
+          "before": 0,
+          "after": 6
+        },
+        {
+          "field": "quantity",
+          "slot": "17",
+          "product": "ساندویچ الویه",
+          "before": 0,
+          "after": 3
+        },
+        {
+          "field": "product",
+          "slot": "17",
+          "product": "ساندویچ الویه",
+          "before": "ساندویچ بندری",
+          "after": "ساندویچ الویه"
+        },
+        {
+          "field": "product",
+          "slot": "22",
+          "product": "رول رول با کلاس",
+          "before": "تیتو مزمز",
+          "after": "رول رول با کلاس"
+        },
+        {
+          "field": "quantity",
+          "slot": "23",
+          "product": "نات بار زرد",
+          "before": 0,
+          "after": 6
+        },
+        {
+          "field": "quantity",
+          "slot": "24",
+          "product": "همپا دراز",
+          "before": 0,
+          "after": 11
+        },
+        {
+          "field": "quantity",
+          "slot": "26",
+          "product": "کلوچه نادری نارگیلی",
+          "before": 0,
+          "after": 16
+        },
+        {
+          "field": "quantity",
+          "slot": "27",
+          "product": "کلوچه نادری گردویی",
+          "before": 0,
+          "after": 16
+        },
+        {
+          "field": "quantity",
+          "slot": "31",
+          "product": "وافل",
+          "before": 0,
+          "after": 6
+        },
+        {
+          "field": "quantity",
+          "slot": "35",
+          "product": "کلوچه سنتی",
+          "before": 0,
+          "after": 8
+        },
+        {
+          "field": "product",
+          "slot": "35",
+          "product": "کلوچه سنتی",
+          "before": "کلوجه کاکائویی",
+          "after": "کلوچه سنتی"
+        },
+        {
+          "field": "quantity",
+          "slot": "38",
+          "product": "رول رول",
+          "before": 0,
+          "after": 6
+        },
+        {
+          "field": "quantity",
+          "slot": "46",
+          "product": "معینی پور",
+          "before": 0,
+          "after": 2
+        },
+        {
+          "field": "product",
+          "slot": "48",
+          "product": "بیسکوییت قهوه ",
+          "before": "پتی بور",
+          "after": "بیسکوییت قهوه "
+        },
+        {
+          "field": "quantity",
+          "slot": "51",
+          "product": "کیک میک شیفون",
+          "before": 0,
+          "after": 6
+        },
+        {
+          "field": "product",
+          "slot": "54",
+          "product": "ویفر روکش شکلات",
+          "before": "رول رول با کلاس",
+          "after": "ویفر روکش شکلات"
+        },
+        {
+          "field": "quantity",
+          "slot": "58",
+          "product": "وجین",
+          "before": 0,
+          "after": 6
+        },
+        {
+          "field": "quantity",
+          "slot": "65",
+          "product": "ایس مانکی کیوی",
+          "before": 0,
+          "after": 4
+        },
+        {
+          "field": "quantity",
+          "slot": "66",
+          "product": "رانی",
+          "before": 0,
+          "after": 4
+        },
+        {
+          "field": "notes",
+          "slot": "",
+          "product": "",
+          "before": "",
+          "after": "کلوچه و معینی پور مازاد گفته شد داخل کمد.\nدانه قهوه روبوستا ۱\nلیوان ۲\nشکر ۱\nهات چاکلت ۲"
+        }
+      ]
     }
   ]
 }
