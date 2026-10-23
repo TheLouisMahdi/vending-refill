@@ -3183,6 +3183,92 @@
           "after": "کلوچه و معینی پور مازاد گفته شد داخل کمد.\nدانه قهوه روبوستا ۱\nلیوان ۲\nشکر ۱\nهات چاکلت ۲"
         }
       ]
+    },
+    {
+      "id": "18a2aa04b680af6a46f24fe498270042cc7f59ca",
+      "at": "2026-10-23T15:01:31.263Z",
+      "date": "1405/08/01",
+      "time": "18:31:31",
+      "operation": "record",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "21",
+          "product": "بایودنت نعناع",
+          "before": 0,
+          "after": 12
+        },
+        {
+          "field": "quantity",
+          "slot": "32",
+          "product": "کوکی",
+          "before": 0,
+          "after": 2
+        },
+        {
+          "field": "quantity",
+          "slot": "38",
+          "product": "رول رول",
+          "before": 6,
+          "after": 0
+        },
+        {
+          "field": "quantity",
+          "slot": "47",
+          "product": "معینی پور",
+          "before": 0,
+          "after": 2
+        },
+        {
+          "field": "quantity",
+          "slot": "55",
+          "product": "شیر قهوه",
+          "before": 15,
+          "after": 0
+        },
+        {
+          "field": "quantity",
+          "slot": "56",
+          "product": "سان استار انبه",
+          "before": 0,
+          "after": 6
+        },
+        {
+          "field": "quantity",
+          "slot": "57",
+          "product": "سان استار هلو",
+          "before": 0,
+          "after": 6
+        },
+        {
+          "field": "quantity",
+          "slot": "61",
+          "product": "الوئه ورا",
+          "before": 0,
+          "after": 4
+        },
+        {
+          "field": "quantity",
+          "slot": "63",
+          "product": "سن ایچ پت پرتقال",
+          "before": 0,
+          "after": 2
+        },
+        {
+          "field": "quantity",
+          "slot": "67",
+          "product": "لایف با قند",
+          "before": 0,
+          "after": 12
+        },
+        {
+          "field": "quantity",
+          "slot": "68",
+          "product": "لایف بدون قند",
+          "before": 0,
+          "after": 12
+        }
+      ]
     }
   ]
 }
