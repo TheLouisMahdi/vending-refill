@@ -3365,6 +3365,214 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "8e8fb2c23160f5454e7acbf832b996d7fe9ecdca",
+      "at": "2026-10-24T12:29:03.725Z",
+      "date": "1405/08/02",
+      "time": "15:59:03",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "24",
+          "product": "همپا دراز",
+          "before": 11,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "d3c746e1d5544f93642eaa17f101ea7f5091860f",
+      "at": "2026-10-24T12:29:05.841Z",
+      "date": "1405/08/02",
+      "time": "15:59:05",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "26",
+          "product": "کلوچه نادری نارگیلی",
+          "before": 16,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "54f2cdf85b48570c94dec5ce458d97b9ff1be2f9",
+      "at": "2026-10-24T12:29:07.849Z",
+      "date": "1405/08/02",
+      "time": "15:59:07",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "27",
+          "product": "کلوچه نادری گردویی",
+          "before": 16,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "6099b2146d5b19c9618c008b1283db2a8f4e38b0",
+      "at": "2026-10-24T12:29:09.521Z",
+      "date": "1405/08/02",
+      "time": "15:59:09",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "31",
+          "product": "وافل",
+          "before": 6,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "769c68edade49486c444d52b006577bc2e075c61",
+      "at": "2026-10-24T12:29:11.390Z",
+      "date": "1405/08/02",
+      "time": "15:59:11",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "32",
+          "product": "کوکی",
+          "before": 2,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "20b07d0b6dcfda827170b7908fb86de5c570bfa9",
+      "at": "2026-10-24T12:29:13.820Z",
+      "date": "1405/08/02",
+      "time": "15:59:13",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "35",
+          "product": "کلوچه سنتی",
+          "before": 8,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "f5ddc04497687740ac1c2c4fd0de1f1f3806dbc0",
+      "at": "2026-10-24T12:29:15.770Z",
+      "date": "1405/08/02",
+      "time": "15:59:15",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "46",
+          "product": "معینی پور",
+          "before": 2,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "11b5a138b926cfb926378224e7e0ac7faf28ced4",
+      "at": "2026-10-24T12:29:17.549Z",
+      "date": "1405/08/02",
+      "time": "15:59:17",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "47",
+          "product": "معینی پور",
+          "before": 2,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "cfc57d3ee92b6b1aebd520131e96a618908c6688",
+      "at": "2026-10-24T12:29:19.363Z",
+      "date": "1405/08/02",
+      "time": "15:59:19",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "51",
+          "product": "کیک میک شیفون",
+          "before": 6,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "ba4ef4e387a3da3ec281954570e244d88eaaae2c",
+      "at": "2026-10-24T12:29:21.588Z",
+      "date": "1405/08/02",
+      "time": "15:59:21",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "56",
+          "product": "سان استار انبه",
+          "before": 6,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "0547e8ae2d28008d6021be9a073266d1d1281fae",
+      "at": "2026-10-24T12:29:23.899Z",
+      "date": "1405/08/02",
+      "time": "15:59:23",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "57",
+          "product": "سان استار هلو",
+          "before": 6,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "c64d6de1a279fe60efcb72e0c9fe9077ec0e93de",
+      "at": "2026-10-24T12:29:26.196Z",
+      "date": "1405/08/02",
+      "time": "15:59:26",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "58",
+          "product": "وجین",
+          "before": 6,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "fc4bd4ea0fabc146090ecebe8461326db11165b7",
+      "at": "2026-10-24T12:29:28.182Z",
+      "date": "1405/08/02",
+      "time": "15:59:28",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "61",
+          "product": "الوئه ورا",
+          "before": 4,
+          "after": 0
+        }
+      ]
     }
   ]
 }
