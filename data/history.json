@@ -3573,6 +3573,86 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "ba7bb35d57b1eb105d79a393784c4b53385166f6",
+      "at": "2026-10-24T12:30:30.169Z",
+      "date": "1405/08/02",
+      "time": "16:00:30",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "63",
+          "product": "سن ایچ پت پرتقال",
+          "before": 2,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "e4e476b18ffdbae698c492ac657c8aa123d987a4",
+      "at": "2026-10-24T12:30:31.922Z",
+      "date": "1405/08/02",
+      "time": "16:00:31",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "65",
+          "product": "ایس مانکی کیوی",
+          "before": 4,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "f5014cbd5b62a64047030be8513c6c55a9792d86",
+      "at": "2026-10-24T12:30:33.878Z",
+      "date": "1405/08/02",
+      "time": "16:00:33",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "66",
+          "product": "رانی",
+          "before": 4,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "630eabe66978b8b0d5ace6ca940b1a8050f591c0",
+      "at": "2026-10-24T12:30:36.813Z",
+      "date": "1405/08/02",
+      "time": "16:00:36",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "67",
+          "product": "لایف با قند",
+          "before": 12,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "4019d46d1054b5eeccb2cce93eab874440cc6c89",
+      "at": "2026-10-24T12:30:39.056Z",
+      "date": "1405/08/02",
+      "time": "16:00:39",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "68",
+          "product": "لایف بدون قند",
+          "before": 12,
+          "after": 0
+        }
+      ]
     }
   ]
 }
