@@ -3269,6 +3269,102 @@
           "after": 12
         }
       ]
+    },
+    {
+      "id": "f2c03f1d5a94436ecb4a4abaa7ec8947ad71ca75",
+      "at": "2026-10-24T12:28:49.033Z",
+      "date": "1405/08/02",
+      "time": "15:58:49",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "11",
+          "product": "تیتاپ نادری",
+          "before": 6,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "09b3985ffc8dbfb118afdc4ca0d4a51000f073d8",
+      "at": "2026-10-24T12:28:51.522Z",
+      "date": "1405/08/02",
+      "time": "15:58:51",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "13",
+          "product": "ساندویچ انار گردو",
+          "before": 3,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "672fff17251024d59dc8dab503b618ebf13fbab5",
+      "at": "2026-10-24T12:28:53.761Z",
+      "date": "1405/08/02",
+      "time": "15:58:53",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "15",
+          "product": "ساندویچ مرغ",
+          "before": 6,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "973cf19999a8dbcc0de3c34e7135cc548ce42c62",
+      "at": "2026-10-24T12:28:55.928Z",
+      "date": "1405/08/02",
+      "time": "15:58:55",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "17",
+          "product": "ساندویچ الویه",
+          "before": 3,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "31c59ae36b6f3aa7bd620d77fd01e789b114e426",
+      "at": "2026-10-24T12:28:57.745Z",
+      "date": "1405/08/02",
+      "time": "15:58:57",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "21",
+          "product": "بایودنت نعناع",
+          "before": 12,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "7bd0845e42a1a1995a0cc292ae6d604b9e160a2b",
+      "at": "2026-10-24T12:29:00.085Z",
+      "date": "1405/08/02",
+      "time": "15:59:00",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "23",
+          "product": "نات بار زرد",
+          "before": 6,
+          "after": 0
+        }
+      ]
     }
   ]
 }
