@@ -3909,6 +3909,102 @@
           "after": ""
         }
       ]
+    },
+    {
+      "id": "5ddd503281deae50d8b3d6741614e73d24169e1d",
+      "at": "2026-10-26T04:52:11.748Z",
+      "date": "1405/08/04",
+      "time": "08:22:11",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "13",
+          "product": "فمیلی کیک",
+          "before": 10,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "c0eca96a87adc07d87950da082a4d46425d7044b",
+      "at": "2026-10-26T04:52:13.503Z",
+      "date": "1405/08/04",
+      "time": "08:22:13",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "15",
+          "product": "بیس بیس بزرگ",
+          "before": 12,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "e227cebc20d421a6e0b6c7fae8c6a2024a48af26",
+      "at": "2026-10-26T04:52:15.248Z",
+      "date": "1405/08/04",
+      "time": "08:22:15",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "17",
+          "product": "چیپس فلفل لیمو",
+          "before": 5,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "f51e482f51d4efc1fff133b15cdbd38cff9a435a",
+      "at": "2026-10-26T04:52:17.013Z",
+      "date": "1405/08/04",
+      "time": "08:22:17",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "35",
+          "product": "کلوچه سنتی",
+          "before": 6,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "0058ee8517ebfd72ea633773466e8982fc828a6b",
+      "at": "2026-10-26T04:52:19.074Z",
+      "date": "1405/08/04",
+      "time": "08:22:19",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "36",
+          "product": "برای تنوع تخمه شه",
+          "before": 12,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "06cefe53635da9f813dc2cfbc50823ac5d18c981",
+      "at": "2026-10-26T04:52:21.046Z",
+      "date": "1405/08/04",
+      "time": "08:22:21",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "46",
+          "product": "معینی پور",
+          "before": 2,
+          "after": 0
+        }
+      ]
     }
   ]
 }
