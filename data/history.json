@@ -4053,6 +4053,57 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "971bb6b23508510b9d424c692c4f8cc0cca6686f",
+      "at": "2026-10-26T15:13:06.282Z",
+      "date": "1405/08/04",
+      "time": "18:43:06",
+      "operation": "record",
+      "changes": [
+        {
+          "field": "product",
+          "slot": "23",
+          "product": "کراست (هارد کوکی)",
+          "before": "نات بار زرد",
+          "after": "کراست (هارد کوکی)"
+        },
+        {
+          "field": "product",
+          "slot": "26",
+          "product": "کیک میک",
+          "before": "کلوچه نادری نارگیلی",
+          "after": "کیک میک"
+        },
+        {
+          "field": "product",
+          "slot": "46",
+          "product": "معنی خرمایی",
+          "before": "معینی پور",
+          "after": "معنی خرمایی"
+        },
+        {
+          "field": "product",
+          "slot": "47",
+          "product": "معینی لاک پشتی",
+          "before": "معینی پور",
+          "after": "معینی لاک پشتی"
+        },
+        {
+          "field": "product",
+          "slot": "51",
+          "product": "های بای",
+          "before": "کیک میک شیفون",
+          "after": "های بای"
+        },
+        {
+          "field": "product",
+          "slot": "66",
+          "product": "آیس کافی",
+          "before": "رانی",
+          "after": "آیس کافی"
+        }
+      ]
     }
   ]
 }
