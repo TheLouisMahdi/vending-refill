@@ -4005,6 +4005,54 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "98c8a970c5117fc09753036c57aba5608e08baa3",
+      "at": "2026-10-26T04:52:29.530Z",
+      "date": "1405/08/04",
+      "time": "08:22:29",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "48",
+          "product": "بیسکوییت قهوه ",
+          "before": 15,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "7b6b65f52560ec69ca76597e49fdfdee6fbe320a",
+      "at": "2026-10-26T04:52:31.090Z",
+      "date": "1405/08/04",
+      "time": "08:22:31",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "62",
+          "product": "پرو شیر",
+          "before": 6,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "dcb6947aaa0795667c3f0188fbdeb41b0a7e1c01",
+      "at": "2026-10-26T04:52:32.859Z",
+      "date": "1405/08/04",
+      "time": "08:22:32",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "66",
+          "product": "رانی",
+          "before": 9,
+          "after": 0
+        }
+      ]
     }
   ]
 }
