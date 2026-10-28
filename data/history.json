@@ -4285,6 +4285,22 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "f96dcf42fc0439f071497264a6fe3743ee6650ae",
+      "at": "2026-10-28T12:39:27.463Z",
+      "date": "1405/08/06",
+      "time": "16:09:27",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "22",
+          "product": "رول رول با کلاس",
+          "before": 10,
+          "after": 0
+        }
+      ]
     }
   ]
 }
