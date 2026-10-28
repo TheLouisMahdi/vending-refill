@@ -4269,6 +4269,22 @@
           "after": "قاشق ۴"
         }
       ]
+    },
+    {
+      "id": "3850117fd257b7937b944553abb491a96a19c0f7",
+      "at": "2026-10-28T12:38:21.360Z",
+      "date": "1405/08/06",
+      "time": "16:08:21",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "17",
+          "product": "چیپس فلفل لیمو",
+          "before": 10,
+          "after": 0
+        }
+      ]
     }
   ]
 }
