@@ -4333,6 +4333,54 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "e6791e9584341d22b7e1198f4a1bff6a59031ac7",
+      "at": "2026-10-28T12:40:31.443Z",
+      "date": "1405/08/06",
+      "time": "16:10:31",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "34",
+          "product": "ویفر نادری کوچیک",
+          "before": 10,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "49c41327251ead52aa0de8f263251317846b7dfa",
+      "at": "2026-10-28T12:40:38.093Z",
+      "date": "1405/08/06",
+      "time": "16:10:38",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "41",
+          "product": "اب معدنی",
+          "before": 4,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "532580c0b6fe68eaecb350a0a956662298d8adc8",
+      "at": "2026-10-28T12:40:42.626Z",
+      "date": "1405/08/06",
+      "time": "16:10:42",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "45",
+          "product": "های بای نادری",
+          "before": 12,
+          "after": 0
+        }
+      ]
     }
   ]
 }
