@@ -4301,6 +4301,38 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "712aed1b7ed2cb837d9def131f63e47f7a687033",
+      "at": "2026-10-28T12:40:10.712Z",
+      "date": "1405/08/06",
+      "time": "16:10:10",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "28",
+          "product": "پچ‌پچ",
+          "before": 36,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "2d633383a28cadae386a1ba1503f86aa4098288a",
+      "at": "2026-10-28T12:40:16.757Z",
+      "date": "1405/08/06",
+      "time": "16:10:16",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "33",
+          "product": "پاستیل",
+          "before": 9,
+          "after": 0
+        }
+      ]
     }
   ]
 }
