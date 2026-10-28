@@ -4413,6 +4413,38 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "78ae43a08dc21657871e9697a8077ad5fee264c1",
+      "at": "2026-10-28T12:41:00.042Z",
+      "date": "1405/08/06",
+      "time": "16:11:00",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "61",
+          "product": "الوئه ورا",
+          "before": 12,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "c57ff426275f804876e56e9670b0b35925620216",
+      "at": "2026-10-28T12:41:07.099Z",
+      "date": "1405/08/06",
+      "time": "16:11:07",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "66",
+          "product": "آیس کافی",
+          "before": 15,
+          "after": 0
+        }
+      ]
     }
   ]
 }
