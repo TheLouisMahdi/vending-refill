@@ -4461,6 +4461,92 @@
           "after": ""
         }
       ]
+    },
+    {
+      "id": "2de62c5c5d93b4f75de5e26a233c774676e5388e",
+      "at": "2026-10-31T13:59:40.180Z",
+      "date": "1405/08/09",
+      "time": "17:29:40",
+      "operation": "record",
+      "changes": [
+        {
+          "field": "product",
+          "slot": "11",
+          "product": "فمیلی کیک",
+          "before": "ساندویچ مرغ پنیر چدار",
+          "after": "فمیلی کیک"
+        },
+        {
+          "field": "product",
+          "slot": "13",
+          "product": "فمیلی کیک",
+          "before": "ساندویچ هالوپینو",
+          "after": "فمیلی کیک"
+        },
+        {
+          "field": "product",
+          "slot": "15",
+          "product": "چیپس هالوپبنو",
+          "before": "ساندویچ الویه",
+          "after": "چیپس هالوپبنو"
+        },
+        {
+          "field": "quantity",
+          "slot": "41",
+          "product": "اب معدنی",
+          "before": 0,
+          "after": 2
+        },
+        {
+          "field": "quantity",
+          "slot": "46",
+          "product": "معنی پور",
+          "before": 0,
+          "after": 1
+        },
+        {
+          "field": "product",
+          "slot": "46",
+          "product": "معنی پور",
+          "before": "معنی لاکپشتی",
+          "after": "معنی پور"
+        },
+        {
+          "field": "quantity",
+          "slot": "51",
+          "product": "های بای",
+          "before": 0,
+          "after": 2
+        },
+        {
+          "field": "quantity",
+          "slot": "53",
+          "product": "شیر شکلات",
+          "before": 0,
+          "after": 24
+        },
+        {
+          "field": "quantity",
+          "slot": "61",
+          "product": "آیس کافی",
+          "before": 0,
+          "after": 12
+        },
+        {
+          "field": "product",
+          "slot": "61",
+          "product": "آیس کافی",
+          "before": "الوئه ورا",
+          "after": "آیس کافی"
+        },
+        {
+          "field": "notes",
+          "slot": "",
+          "product": "",
+          "before": "",
+          "after": "قهوه عربیکا 1 کیلو"
+        }
+      ]
     }
   ]
 }
