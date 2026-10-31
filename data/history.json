@@ -4445,6 +4445,22 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "02f6133cbc33d5a29ad8bb75f01652efd43445d5",
+      "at": "2026-10-31T07:18:58.969Z",
+      "date": "1405/08/09",
+      "time": "10:48:58",
+      "operation": "record",
+      "changes": [
+        {
+          "field": "notes",
+          "slot": "",
+          "product": "",
+          "before": "قاشق ۴",
+          "after": ""
+        }
+      ]
     }
   ]
 }
