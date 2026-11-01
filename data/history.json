@@ -4770,6 +4770,29 @@
           "after": 1
         }
       ]
+    },
+    {
+      "id": "4aa0921ed66ef51e10bda902cdb0954564c7cf44",
+      "at": "2026-11-01T12:58:41.105Z",
+      "date": "1405/08/10",
+      "time": "16:28:41",
+      "operation": "record",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "51",
+          "product": "های بای",
+          "before": 1,
+          "after": 0
+        },
+        {
+          "field": "product",
+          "slot": "52",
+          "product": "کیک مزمز",
+          "before": "کیک توینکلز",
+          "after": "کیک مزمز"
+        }
+      ]
     }
   ]
 }
