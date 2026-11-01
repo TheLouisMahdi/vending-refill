@@ -4724,6 +4724,29 @@
           "after": 1
         }
       ]
+    },
+    {
+      "id": "7723add37513fbf530407d1023e0a056565dd2b4",
+      "at": "2026-11-01T08:47:10.897Z",
+      "date": "1405/08/10",
+      "time": "12:17:10",
+      "operation": "record",
+      "changes": [
+        {
+          "field": "product",
+          "slot": "56",
+          "product": "وجین انبه ",
+          "before": "سان استار انبه",
+          "after": "وجین انبه "
+        },
+        {
+          "field": "product",
+          "slot": "58",
+          "product": "وجین انگور",
+          "before": "وجین",
+          "after": "وجین انگور"
+        }
+      ]
     }
   ]
 }
