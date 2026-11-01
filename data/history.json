@@ -4547,6 +4547,86 @@
           "after": "قهوه عربیکا 1 کیلو"
         }
       ]
+    },
+    {
+      "id": "a0f7239ba3d482192eb9566df1715d6934a841ed",
+      "at": "2026-11-01T05:13:12.560Z",
+      "date": "1405/08/10",
+      "time": "08:43:12",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "41",
+          "product": "اب معدنی",
+          "before": 2,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "031f97b7e9f74ea32b18f0b2818977d5a4692fba",
+      "at": "2026-11-01T05:13:14.379Z",
+      "date": "1405/08/10",
+      "time": "08:43:14",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "46",
+          "product": "معنی پور",
+          "before": 1,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "5bd96065a4252b997aa739cd99b23a9e10fd4f3a",
+      "at": "2026-11-01T05:13:16.134Z",
+      "date": "1405/08/10",
+      "time": "08:43:16",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "51",
+          "product": "های بای",
+          "before": 2,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "54f19751de6b6622baf3a1aec06e2c2e64fda286",
+      "at": "2026-11-01T05:13:17.886Z",
+      "date": "1405/08/10",
+      "time": "08:43:17",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "53",
+          "product": "شیر شکلات",
+          "before": 24,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "745062ebb072de102d48a0b311d35f68635bf473",
+      "at": "2026-11-01T05:13:19.825Z",
+      "date": "1405/08/10",
+      "time": "08:43:19",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "61",
+          "product": "آیس کافی",
+          "before": 12,
+          "after": 0
+        }
+      ]
     }
   ]
 }
