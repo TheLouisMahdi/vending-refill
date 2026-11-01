@@ -4701,6 +4701,29 @@
           "after": 1
         }
       ]
+    },
+    {
+      "id": "3c0bcd4f359475658b123602d9dd1a748b6a6708",
+      "at": "2026-11-01T08:46:30.470Z",
+      "date": "1405/08/10",
+      "time": "12:16:30",
+      "operation": "record",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "35",
+          "product": "کلوچه کاکائویی اکسترا",
+          "before": 0,
+          "after": 1
+        },
+        {
+          "field": "quantity",
+          "slot": "48",
+          "product": "بیسکوییت قهوه ",
+          "before": 0,
+          "after": 1
+        }
+      ]
     }
   ]
 }
