@@ -5150,6 +5150,78 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "19abe0e81e8d927a7a1698a2d9000b9309d51ddf",
+      "at": "2026-11-02T13:58:48.715Z",
+      "date": "1405/08/11",
+      "time": "17:28:48",
+      "operation": "record",
+      "changes": [
+        {
+          "field": "product",
+          "slot": "26",
+          "product": "کیک ",
+          "before": "کیک میک",
+          "after": "کیک "
+        },
+        {
+          "field": "quantity",
+          "slot": "31",
+          "product": "وافل",
+          "before": 0,
+          "after": 10
+        },
+        {
+          "field": "quantity",
+          "slot": "32",
+          "product": "کوکی",
+          "before": 0,
+          "after": 10
+        },
+        {
+          "field": "quantity",
+          "slot": "38",
+          "product": "رول رول",
+          "before": 0,
+          "after": 10
+        },
+        {
+          "field": "quantity",
+          "slot": "41",
+          "product": "اب معدنی",
+          "before": 0,
+          "after": 2
+        },
+        {
+          "field": "quantity",
+          "slot": "47",
+          "product": "معینی زبان",
+          "before": 0,
+          "after": 6
+        },
+        {
+          "field": "product",
+          "slot": "48",
+          "product": "پتی بور",
+          "before": "بیسکوییت قهوه ",
+          "after": "پتی بور"
+        },
+        {
+          "field": "quantity",
+          "slot": "51",
+          "product": "های بای",
+          "before": 0,
+          "after": 24
+        },
+        {
+          "field": "notes",
+          "slot": "",
+          "product": "",
+          "before": "",
+          "after": "میت 2\n"
+        }
+      ]
     }
   ]
 }
