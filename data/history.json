@@ -5318,6 +5318,120 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "21781656fbdc95bcfef30a37d2dc3af0112e0278",
+      "at": "2026-11-03T11:35:00.035Z",
+      "date": "1405/08/12",
+      "time": "15:05:00",
+      "operation": "record",
+      "changes": [
+        {
+          "field": "product",
+          "slot": "11",
+          "product": "کیک فمیلی",
+          "before": "کیک نادری شکلاتی",
+          "after": "کیک فمیلی"
+        },
+        {
+          "field": "product",
+          "slot": "13",
+          "product": "ساندویچ سرد پستو",
+          "before": "فمیلی کیک",
+          "after": "ساندویچ سرد پستو"
+        },
+        {
+          "field": "product",
+          "slot": "15",
+          "product": "ساندویچ سرد الویه",
+          "before": "چیپس هالوپبنو",
+          "after": "ساندویچ سرد الویه"
+        },
+        {
+          "field": "product",
+          "slot": "17",
+          "product": "چیپس هالوپینو",
+          "before": "چیپس فلفل لیمو",
+          "after": "چیپس هالوپینو"
+        },
+        {
+          "field": "quantity",
+          "slot": "26",
+          "product": "کیک تیتو ",
+          "before": 0,
+          "after": 10
+        },
+        {
+          "field": "product",
+          "slot": "26",
+          "product": "کیک تیتو ",
+          "before": "کیک ",
+          "after": "کیک تیتو "
+        },
+        {
+          "field": "quantity",
+          "slot": "35",
+          "product": "کلوچه کاکائویی اکسترا",
+          "before": 0,
+          "after": 12
+        },
+        {
+          "field": "quantity",
+          "slot": "41",
+          "product": "اب معدنی",
+          "before": 0,
+          "after": 2
+        },
+        {
+          "field": "quantity",
+          "slot": "47",
+          "product": "کیک میک ",
+          "before": 0,
+          "after": 8
+        },
+        {
+          "field": "product",
+          "slot": "47",
+          "product": "کیک میک ",
+          "before": "معینی زبان",
+          "after": "کیک میک "
+        },
+        {
+          "field": "quantity",
+          "slot": "54",
+          "product": "ویفر روکش شکلات",
+          "before": 0,
+          "after": 10
+        },
+        {
+          "field": "quantity",
+          "slot": "61",
+          "product": "آیس کافی",
+          "before": 0,
+          "after": 12
+        },
+        {
+          "field": "quantity",
+          "slot": "63",
+          "product": "سن ایچ پت پرتقال",
+          "before": 0,
+          "after": 6
+        },
+        {
+          "field": "quantity",
+          "slot": "67",
+          "product": "لایف با قند",
+          "before": 0,
+          "after": 12
+        },
+        {
+          "field": "notes",
+          "slot": "",
+          "product": "",
+          "before": "میت 2\n",
+          "after": "ساندویچ سرد قرمز تمام شد \nساندویچ سرد پستو 2 عدد مانده\nساندویچ سرد الویه 1 مانده\n\n"
+        }
+      ]
     }
   ]
 }
