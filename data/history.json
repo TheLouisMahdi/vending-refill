@@ -5222,6 +5222,102 @@
           "after": "میت 2\n"
         }
       ]
+    },
+    {
+      "id": "2163dbc40a152a067b98b392bcd676d2166fd74f",
+      "at": "2026-11-03T04:45:06.426Z",
+      "date": "1405/08/12",
+      "time": "08:15:06",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "31",
+          "product": "وافل",
+          "before": 10,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "fdb7e2bbe50e5de727776e33d75ddfb0c51dc819",
+      "at": "2026-11-03T04:45:08.884Z",
+      "date": "1405/08/12",
+      "time": "08:15:08",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "32",
+          "product": "کوکی",
+          "before": 10,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "c43c6057c6a9dfbcb6024d0f0fdba2937db63eb8",
+      "at": "2026-11-03T04:45:10.604Z",
+      "date": "1405/08/12",
+      "time": "08:15:10",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "38",
+          "product": "رول رول",
+          "before": 10,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "7f7b4113f6815e6685fb61c64f9b3b02316e57fd",
+      "at": "2026-11-03T04:45:12.334Z",
+      "date": "1405/08/12",
+      "time": "08:15:12",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "41",
+          "product": "اب معدنی",
+          "before": 2,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "b5ab7a0003336389d178249f86a47d239b895716",
+      "at": "2026-11-03T04:45:15.127Z",
+      "date": "1405/08/12",
+      "time": "08:15:15",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "47",
+          "product": "معینی زبان",
+          "before": 6,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "611009971634f8bdafb101b6b730712e9aed6ede",
+      "at": "2026-11-03T04:45:16.850Z",
+      "date": "1405/08/12",
+      "time": "08:15:16",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "51",
+          "product": "های بای",
+          "before": 24,
+          "after": 0
+        }
+      ]
     }
   ]
 }
