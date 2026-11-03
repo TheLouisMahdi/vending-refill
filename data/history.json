@@ -5487,6 +5487,150 @@
           "after": "ساندویچ سرد قرمز تمام شد \nساندویچ سرد پستو 2 عدد مانده\nساندویچ سرد الویه 1 مانده\nمعینی زبان تمام شد\nمیت 2 \nشکر\n"
         }
       ]
+    },
+    {
+      "id": "7a81cec23d70be3c9c2f6e1f988ca4bc53b487ea",
+      "at": "2026-11-03T13:21:35.860Z",
+      "date": "1405/08/12",
+      "time": "16:51:35",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "26",
+          "product": "کیک تیتو ",
+          "before": 10,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "f2b4ea018633a3f451c4483a3ff4c1a8989275aa",
+      "at": "2026-11-03T13:21:37.711Z",
+      "date": "1405/08/12",
+      "time": "16:51:37",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "27",
+          "product": "کلوچه نادری گردویی",
+          "before": 12,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "816ee63b4066a25eb06d8abbd00543d611d054c6",
+      "at": "2026-11-03T13:21:39.560Z",
+      "date": "1405/08/12",
+      "time": "16:51:39",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "35",
+          "product": "کلوچه کاکائویی اکسترا",
+          "before": 12,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "b8f0789d56e3e9c89fd1db1d19f8901666f5aa62",
+      "at": "2026-11-03T13:21:41.319Z",
+      "date": "1405/08/12",
+      "time": "16:51:41",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "41",
+          "product": "اب معدنی",
+          "before": 2,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "1aa34cd2c585787e1c25086c8e67798d51e08f2e",
+      "at": "2026-11-03T13:21:43.180Z",
+      "date": "1405/08/12",
+      "time": "16:51:43",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "47",
+          "product": "کیک میک ",
+          "before": 8,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "a8a2c0c14e4ced51870c71d61cc9ce87a06705bb",
+      "at": "2026-11-03T13:21:45.106Z",
+      "date": "1405/08/12",
+      "time": "16:51:45",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "54",
+          "product": "ویفر روکش شکلات",
+          "before": 10,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "1af73159160ccc8a347d6681822d6dea49fceea0",
+      "at": "2026-11-03T13:21:47.038Z",
+      "date": "1405/08/12",
+      "time": "16:51:47",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "61",
+          "product": "آیس کافی",
+          "before": 12,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "41300deeade07db1bc5c68f32f2013d2c232627e",
+      "at": "2026-11-03T13:21:48.900Z",
+      "date": "1405/08/12",
+      "time": "16:51:48",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "63",
+          "product": "سن ایچ پت پرتقال",
+          "before": 6,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "688b4610a74e165dd7ebcb8a75aaea03f8811dd5",
+      "at": "2026-11-03T13:21:50.664Z",
+      "date": "1405/08/12",
+      "time": "16:51:50",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "67",
+          "product": "لایف با قند",
+          "before": 12,
+          "after": 0
+        }
+      ]
     }
   ]
 }
