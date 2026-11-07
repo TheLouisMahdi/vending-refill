@@ -5802,6 +5802,166 @@
           "after": "قهوه ۱\nلیوان ۱"
         }
       ]
+    },
+    {
+      "id": "da2afb50453c8cb5b0e9bfcbde1ac954258b999c",
+      "at": "2026-11-07T06:04:13.754Z",
+      "date": "1405/08/16",
+      "time": "09:34:13",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "21",
+          "product": "بایودنت نعناع",
+          "before": 1,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "fc4107bb7f318ac55fcf8b8b348b7ac6c9332961",
+      "at": "2026-11-07T06:04:15.744Z",
+      "date": "1405/08/16",
+      "time": "09:34:15",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "23",
+          "product": "بایودنت توتی فروتی",
+          "before": 1,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "01eaaac90ccec0d9210deac9aaa3ef393fd435b7",
+      "at": "2026-11-07T06:04:17.498Z",
+      "date": "1405/08/16",
+      "time": "09:34:17",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "24",
+          "product": "همپا ساشه",
+          "before": 1,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "fcd488be372a8e9cbb0da0374f21e69eabae28ac",
+      "at": "2026-11-07T06:04:19.919Z",
+      "date": "1405/08/16",
+      "time": "09:34:19",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "32",
+          "product": "کوکی",
+          "before": 1,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "7900316f0c69d5e56f3c9b13cc7ff4bd7f77a294",
+      "at": "2026-11-07T06:04:21.699Z",
+      "date": "1405/08/16",
+      "time": "09:34:21",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "36",
+          "product": "تخمه",
+          "before": 10,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "e8888299d5fe7d3893b2d79ffc3ca29d23df39a9",
+      "at": "2026-11-07T06:04:23.557Z",
+      "date": "1405/08/16",
+      "time": "09:34:23",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "41",
+          "product": "اب معدنی",
+          "before": 5,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "a8c28b45861fd6e49fa49c3fbdd85e416921174e",
+      "at": "2026-11-07T06:04:25.280Z",
+      "date": "1405/08/16",
+      "time": "09:34:25",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "48",
+          "product": "توینکلز ",
+          "before": 5,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "6dc52d9f3ca6ed9a98fc48cbe356e86d182082e7",
+      "at": "2026-11-07T06:04:27.130Z",
+      "date": "1405/08/16",
+      "time": "09:34:27",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "51",
+          "product": "های بای",
+          "before": 1,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "607422a6f4afd3ffa09d6e0a645f2e5c613d3c1d",
+      "at": "2026-11-07T06:04:29.071Z",
+      "date": "1405/08/16",
+      "time": "09:34:29",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "57",
+          "product": "سان استار هلو",
+          "before": 12,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "4667c6f78e9f00ba79268d2bbe0f21ab8dc2074c",
+      "at": "2026-11-07T06:04:30.788Z",
+      "date": "1405/08/16",
+      "time": "09:34:30",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "61",
+          "product": "آیس کافی",
+          "before": 10,
+          "after": 0
+        }
+      ]
     }
   ]
 }
