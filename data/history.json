@@ -5677,6 +5677,38 @@
           "after": 10
         }
       ]
+    },
+    {
+      "id": "54ee917da10c927f04d24355e1e444ab4bf85061",
+      "at": "2026-11-07T05:30:47.085Z",
+      "date": "1405/08/16",
+      "time": "09:00:47",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "46",
+          "product": "معینی پور",
+          "before": 24,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "2999a84dc121f3cdee766b00e6baf37b3603aa8d",
+      "at": "2026-11-07T05:30:48.849Z",
+      "date": "1405/08/16",
+      "time": "09:00:48",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "54",
+          "product": "ویفر روکش شکلات",
+          "before": 10,
+          "after": 0
+        }
+      ]
     }
   ]
 }
