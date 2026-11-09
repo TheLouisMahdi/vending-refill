@@ -6143,6 +6143,262 @@
           "after": 24
         }
       ]
+    },
+    {
+      "id": "5a9f690619583fb978aab2a52c9fce0f3751c974",
+      "at": "2026-11-09T12:20:42.772Z",
+      "date": "1405/08/18",
+      "time": "15:50:42",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "11",
+          "product": "کیک فمیلی",
+          "before": 5,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "7d3c7f0df3e91f197b88df1099398d69e09e78b4",
+      "at": "2026-11-09T12:20:44.533Z",
+      "date": "1405/08/18",
+      "time": "15:50:44",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "15",
+          "product": "ساندویچ سرد الویه",
+          "before": 3,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "cda727d6c89329b6a0c58f1dd28db6f4ebc66847",
+      "at": "2026-11-09T12:20:46.420Z",
+      "date": "1405/08/18",
+      "time": "15:50:46",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "21",
+          "product": "بایودنت نعناع",
+          "before": 12,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "069db077f64ab13e4d6090158ec803eed0165638",
+      "at": "2026-11-09T12:20:48.332Z",
+      "date": "1405/08/18",
+      "time": "15:50:48",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "24",
+          "product": "همپا آلوچه",
+          "before": 24,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "e05f89ec18bf5460fee286ec99e2b8f027f1bb08",
+      "at": "2026-11-09T12:20:50.217Z",
+      "date": "1405/08/18",
+      "time": "15:50:50",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "25",
+          "product": "همپا ادامسی",
+          "before": 12,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "9a58537c081c852575429e68ed77465f3377b72e",
+      "at": "2026-11-09T12:20:52.018Z",
+      "date": "1405/08/18",
+      "time": "15:50:52",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "26",
+          "product": "کیک تیتو ",
+          "before": 6,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "be884297ac8120db35b8bba70f6265ef26d2ad6b",
+      "at": "2026-11-09T12:20:53.796Z",
+      "date": "1405/08/18",
+      "time": "15:50:53",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "27",
+          "product": "کلوچه نادری گردویی",
+          "before": 24,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "0c752d2047704e71d773b83caa6b4e6b09083e65",
+      "at": "2026-11-09T12:20:55.559Z",
+      "date": "1405/08/18",
+      "time": "15:50:55",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "32",
+          "product": "کوکی",
+          "before": 24,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "13f4e50722aca811ddc91c7506a60c25a8f1497c",
+      "at": "2026-11-09T12:20:57.335Z",
+      "date": "1405/08/18",
+      "time": "15:50:57",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "34",
+          "product": "ویفر نادری کوچیک",
+          "before": 24,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "5cfa7605db55d246e54292f18e8f27734aed825e",
+      "at": "2026-11-09T12:20:59.222Z",
+      "date": "1405/08/18",
+      "time": "15:50:59",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "35",
+          "product": "کلوچه کاکائویی اکسترا",
+          "before": 24,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "faab5a74e4aff54a63f2bddaf4b7f563e663592a",
+      "at": "2026-11-09T12:21:00.989Z",
+      "date": "1405/08/18",
+      "time": "15:51:00",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "37",
+          "product": "بادوم زمینی روکش دار",
+          "before": 24,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "0d4ea89bbcb9c5b3730bbb2b7ca95ef8aaf9fcf6",
+      "at": "2026-11-09T12:21:02.834Z",
+      "date": "1405/08/18",
+      "time": "15:51:02",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "38",
+          "product": "رول رول",
+          "before": 12,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "fb906aab06a890760a733205ed14e19cf31d7909",
+      "at": "2026-11-09T12:21:04.770Z",
+      "date": "1405/08/18",
+      "time": "15:51:04",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "41",
+          "product": "اب معدنی",
+          "before": 36,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "9aa784df536d16c0b4131871fc934e4d772773b8",
+      "at": "2026-11-09T12:21:06.519Z",
+      "date": "1405/08/18",
+      "time": "15:51:06",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "45",
+          "product": "های بای نادری",
+          "before": 24,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "9bd2c847f39d8dd1bfc58e218fb53580d072cae7",
+      "at": "2026-11-09T12:21:08.353Z",
+      "date": "1405/08/18",
+      "time": "15:51:08",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "51",
+          "product": "های بای",
+          "before": 24,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "4f534571c6cdad4c34182b762077bc3d99098948",
+      "at": "2026-11-09T12:21:10.139Z",
+      "date": "1405/08/18",
+      "time": "15:51:10",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "61",
+          "product": "آیس کافی",
+          "before": 6,
+          "after": 0
+        }
+      ]
     }
   ]
 }
