@@ -6399,6 +6399,113 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "03b930d0f509b603d1edcb8491776ffd53804c4d",
+      "at": "2026-11-10T12:23:56.341Z",
+      "date": "1405/08/19",
+      "time": "15:53:56",
+      "operation": "record",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "13",
+          "product": "ساندویچ سرد پستو",
+          "before": 0,
+          "after": 10
+        },
+        {
+          "field": "quantity",
+          "slot": "17",
+          "product": "چیپس هالوپینو",
+          "before": 0,
+          "after": 12
+        },
+        {
+          "field": "quantity",
+          "slot": "24",
+          "product": "همپا آلوچه",
+          "before": 0,
+          "after": 12
+        },
+        {
+          "field": "quantity",
+          "slot": "25",
+          "product": "همپا ادامسی",
+          "before": 0,
+          "after": 12
+        },
+        {
+          "field": "quantity",
+          "slot": "26",
+          "product": "کیک تیتو ",
+          "before": 0,
+          "after": 12
+        },
+        {
+          "field": "quantity",
+          "slot": "28",
+          "product": "پچ‌پچ",
+          "before": 0,
+          "after": 24
+        },
+        {
+          "field": "quantity",
+          "slot": "31",
+          "product": "وافل",
+          "before": 0,
+          "after": 10
+        },
+        {
+          "field": "quantity",
+          "slot": "32",
+          "product": "کوکی",
+          "before": 0,
+          "after": 24
+        },
+        {
+          "field": "quantity",
+          "slot": "34",
+          "product": "ویفر نادری کوچیک",
+          "before": 0,
+          "after": 8
+        },
+        {
+          "field": "quantity",
+          "slot": "35",
+          "product": "کلوچه کاکائویی اکسترا",
+          "before": 0,
+          "after": 24
+        },
+        {
+          "field": "quantity",
+          "slot": "37",
+          "product": "بادوم زمینی روکش دار",
+          "before": 0,
+          "after": 24
+        },
+        {
+          "field": "quantity",
+          "slot": "41",
+          "product": "اب معدنی",
+          "before": 0,
+          "after": 4
+        },
+        {
+          "field": "quantity",
+          "slot": "46",
+          "product": "معینی پور",
+          "before": 0,
+          "after": 24
+        },
+        {
+          "field": "quantity",
+          "slot": "53",
+          "product": "شیر شکلات",
+          "before": 0,
+          "after": 30
+        }
+      ]
     }
   ]
 }
