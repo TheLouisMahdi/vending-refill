@@ -6506,6 +6506,22 @@
           "after": 30
         }
       ]
+    },
+    {
+      "id": "b10bf415a232ae963b9aafbab8eec6dd5e8d5f41",
+      "at": "2026-11-11T07:38:19.839Z",
+      "date": "1405/08/20",
+      "time": "11:08:19",
+      "operation": "record",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "11",
+          "product": "کیک فمیلی",
+          "before": 0,
+          "after": 8
+        }
+      ]
     }
   ]
 }
