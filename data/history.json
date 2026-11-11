@@ -6602,6 +6602,166 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "cff5b4abaef6eebb7661716fa93b451cc825427e",
+      "at": "2026-11-11T07:58:13.299Z",
+      "date": "1405/08/20",
+      "time": "11:28:13",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "26",
+          "product": "کیک تیتو ",
+          "before": 12,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "a5b401b927d063901927a8563b75e776ddd2c542",
+      "at": "2026-11-11T07:58:15.096Z",
+      "date": "1405/08/20",
+      "time": "11:28:15",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "28",
+          "product": "پچ‌پچ",
+          "before": 24,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "5ec07ed1ff588dbe1ac912fbcbee6248522d7758",
+      "at": "2026-11-11T07:58:17.028Z",
+      "date": "1405/08/20",
+      "time": "11:28:17",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "31",
+          "product": "وافل",
+          "before": 10,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "f4df6642d99c6c3c2926c34119c8a81b4d40087f",
+      "at": "2026-11-11T07:58:18.814Z",
+      "date": "1405/08/20",
+      "time": "11:28:18",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "32",
+          "product": "کوکی",
+          "before": 24,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "e9d49320c6e0958a3541f0a00f394a85e8c8a5d9",
+      "at": "2026-11-11T07:58:20.662Z",
+      "date": "1405/08/20",
+      "time": "11:28:20",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "34",
+          "product": "ویفر نادری کوچیک",
+          "before": 8,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "5b62902e88996e0327ef14343bd216e4861505eb",
+      "at": "2026-11-11T07:58:23.199Z",
+      "date": "1405/08/20",
+      "time": "11:28:23",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "35",
+          "product": "کلوچه کاکائویی اکسترا",
+          "before": 24,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "7aaa89221eb1f7b2f521eb258d6e7f9dc989e2b4",
+      "at": "2026-11-11T07:58:24.973Z",
+      "date": "1405/08/20",
+      "time": "11:28:24",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "37",
+          "product": "بادوم زمینی روکش دار",
+          "before": 24,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "96a2b1e176f9ccf01288161fd89d33aa6f944897",
+      "at": "2026-11-11T07:58:26.768Z",
+      "date": "1405/08/20",
+      "time": "11:28:26",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "41",
+          "product": "اب معدنی",
+          "before": 4,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "5b05757e73ef7dcd20fa3a6c0c42e18e0d57f4d2",
+      "at": "2026-11-11T07:58:28.654Z",
+      "date": "1405/08/20",
+      "time": "11:28:28",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "46",
+          "product": "معینی پور",
+          "before": 24,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "e2d0b552528908622f0a60aea837c8e8a1404a2b",
+      "at": "2026-11-11T07:58:30.435Z",
+      "date": "1405/08/20",
+      "time": "11:28:30",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "53",
+          "product": "شیر شکلات",
+          "before": 30,
+          "after": 0
+        }
+      ]
     }
   ]
 }
