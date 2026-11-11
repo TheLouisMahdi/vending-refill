@@ -6522,6 +6522,86 @@
           "after": 8
         }
       ]
+    },
+    {
+      "id": "78305d5fb29455516a3af55c08bfa4c74b351982",
+      "at": "2026-11-11T07:58:01.129Z",
+      "date": "1405/08/20",
+      "time": "11:28:01",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "11",
+          "product": "کیک فمیلی",
+          "before": 8,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "6dc857fe2244e8a6315f34cca31679e5d0af1e13",
+      "at": "2026-11-11T07:58:03.160Z",
+      "date": "1405/08/20",
+      "time": "11:28:03",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "13",
+          "product": "ساندویچ سرد پستو",
+          "before": 10,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "95d8605e5843c54bc38eef02a9d285667dea0dc6",
+      "at": "2026-11-11T07:58:05.081Z",
+      "date": "1405/08/20",
+      "time": "11:28:05",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "17",
+          "product": "چیپس هالوپینو",
+          "before": 12,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "9fa2935e23d09a1b2126dc61d7e6642efa25fca4",
+      "at": "2026-11-11T07:58:07.120Z",
+      "date": "1405/08/20",
+      "time": "11:28:07",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "24",
+          "product": "همپا آلوچه",
+          "before": 12,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "e8cfd872374f7366d9024b0c5a6d1a0eeac47400",
+      "at": "2026-11-11T07:58:09.132Z",
+      "date": "1405/08/20",
+      "time": "11:28:09",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "25",
+          "product": "همپا ادامسی",
+          "before": 12,
+          "after": 0
+        }
+      ]
     }
   ]
 }
