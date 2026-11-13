@@ -6762,6 +6762,141 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "78bdaf0003d04e500c41ae62fb07036d6c52fce9",
+      "at": "2026-11-13T14:23:18.322Z",
+      "date": "1405/08/22",
+      "time": "17:53:18",
+      "operation": "record",
+      "changes": [
+        {
+          "field": "product",
+          "slot": "11",
+          "product": "ساندویچ‌پستو",
+          "before": "کیک فمیلی",
+          "after": "ساندویچ‌پستو"
+        },
+        {
+          "field": "quantity",
+          "slot": "13",
+          "product": "ساندویچ سرد مرغ چدار",
+          "before": 0,
+          "after": 4
+        },
+        {
+          "field": "product",
+          "slot": "13",
+          "product": "ساندویچ سرد مرغ چدار",
+          "before": "ساندویچ سرد پستو",
+          "after": "ساندویچ سرد مرغ چدار"
+        },
+        {
+          "field": "quantity",
+          "slot": "15",
+          "product": "ساندویچ سرد کالباس",
+          "before": 0,
+          "after": 6
+        },
+        {
+          "field": "product",
+          "slot": "15",
+          "product": "ساندویچ سرد کالباس",
+          "before": "ساندویچ سرد الویه",
+          "after": "ساندویچ سرد کالباس"
+        },
+        {
+          "field": "quantity",
+          "slot": "17",
+          "product": "فمیلی کیک ",
+          "before": 0,
+          "after": 6
+        },
+        {
+          "field": "product",
+          "slot": "17",
+          "product": "فمیلی کیک ",
+          "before": "چیپس هالوپینو",
+          "after": "فمیلی کیک "
+        },
+        {
+          "field": "product",
+          "slot": "23",
+          "product": "کراست",
+          "before": "بایودنت توتی فروتی",
+          "after": "کراست"
+        },
+        {
+          "field": "quantity",
+          "slot": "24",
+          "product": "همپا آلوچه",
+          "before": 0,
+          "after": 19
+        },
+        {
+          "field": "quantity",
+          "slot": "26",
+          "product": "کیک تیتو ",
+          "before": 0,
+          "after": 9
+        },
+        {
+          "field": "quantity",
+          "slot": "41",
+          "product": "تیتاپ کنجدی",
+          "before": 0,
+          "after": 10
+        },
+        {
+          "field": "product",
+          "slot": "41",
+          "product": "تیتاپ کنجدی",
+          "before": "اب معدنی",
+          "after": "تیتاپ کنجدی"
+        },
+        {
+          "field": "product",
+          "slot": "42",
+          "product": "تاینی",
+          "before": "اب معدنی",
+          "after": "تاینی"
+        },
+        {
+          "field": "product",
+          "slot": "43",
+          "product": "ترد",
+          "before": "اب معدنی",
+          "after": "ترد"
+        },
+        {
+          "field": "product",
+          "slot": "44",
+          "product": "ترد",
+          "before": "اب معدنی",
+          "after": "ترد"
+        },
+        {
+          "field": "quantity",
+          "slot": "51",
+          "product": "های بای",
+          "before": 0,
+          "after": 36
+        },
+        {
+          "field": "quantity",
+          "slot": "62",
+          "product": "پرو شیر",
+          "before": 0,
+          "after": 10
+        },
+        {
+          "field": "notes",
+          "slot": "",
+          "product": "",
+          "before": "",
+          "after": "هات چاکلت ۲"
+        }
+      ]
     }
   ]
 }
