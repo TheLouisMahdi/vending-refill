@@ -6897,6 +6897,134 @@
           "after": "هات چاکلت ۲"
         }
       ]
+    },
+    {
+      "id": "6b5943b17cbc939eed9f178dd0fd054391709d37",
+      "at": "2026-11-14T04:46:04.216Z",
+      "date": "1405/08/23",
+      "time": "08:16:04",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "13",
+          "product": "ساندویچ سرد مرغ چدار",
+          "before": 4,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "f95c99327e6ffd5e28cabba3962865338b9490e4",
+      "at": "2026-11-14T04:46:06.229Z",
+      "date": "1405/08/23",
+      "time": "08:16:06",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "15",
+          "product": "ساندویچ سرد کالباس",
+          "before": 6,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "de66f34bc13ccee128a0dcdf001eefaa125bc438",
+      "at": "2026-11-14T04:46:07.950Z",
+      "date": "1405/08/23",
+      "time": "08:16:07",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "17",
+          "product": "فمیلی کیک ",
+          "before": 6,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "12457ff944acbd29214fbd8ef4fd47d5edf64dfd",
+      "at": "2026-11-14T04:46:09.711Z",
+      "date": "1405/08/23",
+      "time": "08:16:09",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "24",
+          "product": "همپا آلوچه",
+          "before": 19,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "f5bb87c45a8f1c7c50622e7725a14e8c7029d97e",
+      "at": "2026-11-14T04:46:11.256Z",
+      "date": "1405/08/23",
+      "time": "08:16:11",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "26",
+          "product": "کیک تیتو ",
+          "before": 9,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "352834001fe571bdccbe52cf08828a9ca58c0a29",
+      "at": "2026-11-14T04:46:13.313Z",
+      "date": "1405/08/23",
+      "time": "08:16:13",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "41",
+          "product": "تیتاپ کنجدی",
+          "before": 10,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "a00a9a279b9e7feab016caedac4bb37bc4c34ec8",
+      "at": "2026-11-14T04:46:16.710Z",
+      "date": "1405/08/23",
+      "time": "08:16:16",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "51",
+          "product": "های بای",
+          "before": 36,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "fe02e1ad4a4aeb3138766b2112b9cb77a1ec684f",
+      "at": "2026-11-14T04:46:19.756Z",
+      "date": "1405/08/23",
+      "time": "08:16:19",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "62",
+          "product": "پرو شیر",
+          "before": 10,
+          "after": 0
+        }
+      ]
     }
   ]
 }
