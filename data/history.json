@@ -7041,6 +7041,64 @@
           "after": ""
         }
       ]
+    },
+    {
+      "id": "2edd37dc1d3a9b90b1915913350cbe81d4c3f352",
+      "at": "2026-11-14T15:58:20.275Z",
+      "date": "1405/08/23",
+      "time": "19:28:20",
+      "operation": "record",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "24",
+          "product": "همپا آلوچه",
+          "before": 0,
+          "after": 24
+        },
+        {
+          "field": "quantity",
+          "slot": "31",
+          "product": "وافل",
+          "before": 0,
+          "after": 8
+        },
+        {
+          "field": "quantity",
+          "slot": "35",
+          "product": "کلوچه کاکائویی اکسترا",
+          "before": 0,
+          "after": 12
+        },
+        {
+          "field": "quantity",
+          "slot": "36",
+          "product": "تخمه",
+          "before": 0,
+          "after": 12
+        },
+        {
+          "field": "quantity",
+          "slot": "38",
+          "product": "رول رول",
+          "before": 0,
+          "after": 12
+        },
+        {
+          "field": "quantity",
+          "slot": "53",
+          "product": "شیر شکلات",
+          "before": 0,
+          "after": 30
+        },
+        {
+          "field": "quantity",
+          "slot": "55",
+          "product": "شیر قهوه",
+          "before": 0,
+          "after": 30
+        }
+      ]
     }
   ]
 }
