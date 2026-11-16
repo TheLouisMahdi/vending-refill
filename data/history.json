@@ -7315,6 +7315,134 @@
           "after": 30
         }
       ]
+    },
+    {
+      "id": "0736c5432b83f726b41234da0f130bfcb41f2d89",
+      "at": "2026-11-16T14:29:35.711Z",
+      "date": "1405/08/25",
+      "time": "17:59:35",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "15",
+          "product": "ساندویچ سرد کالباس",
+          "before": 6,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "5b800938700cc0363b56e0bb1ff12c59c73abe80",
+      "at": "2026-11-16T14:29:37.690Z",
+      "date": "1405/08/25",
+      "time": "17:59:37",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "23",
+          "product": "کراست",
+          "before": 24,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "f21b8f1dfa82a1dd3bc059db18bd883057480ad2",
+      "at": "2026-11-16T14:29:39.782Z",
+      "date": "1405/08/25",
+      "time": "17:59:39",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "24",
+          "product": "همپا آلوچه",
+          "before": 24,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "2ba1f94c89ea813ea52917e5ef5249ac2dffa6db",
+      "at": "2026-11-16T14:29:42.069Z",
+      "date": "1405/08/25",
+      "time": "17:59:42",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "26",
+          "product": "کیک تیتو ",
+          "before": 20,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "2caf3cebf343131fc17a5a0708c7647223b9ad79",
+      "at": "2026-11-16T14:29:44.237Z",
+      "date": "1405/08/25",
+      "time": "17:59:44",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "28",
+          "product": "پچ‌پچ",
+          "before": 30,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "e66e45970c2f0bf43348dcb586bf0816778e0c68",
+      "at": "2026-11-16T14:29:46.274Z",
+      "date": "1405/08/25",
+      "time": "17:59:46",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "31",
+          "product": "وافل",
+          "before": 12,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "cc09337f7c7d663fb1fd757b790803d302d2ac21",
+      "at": "2026-11-16T14:29:48.650Z",
+      "date": "1405/08/25",
+      "time": "17:59:48",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "44",
+          "product": "آب",
+          "before": 4,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "6be80dfa6aa267cb2b04cba95b52bbc6d12a7c41",
+      "at": "2026-11-16T14:29:50.777Z",
+      "date": "1405/08/25",
+      "time": "17:59:50",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "52",
+          "product": "کیک مزمز",
+          "before": 30,
+          "after": 0
+        }
+      ]
     }
   ]
 }
