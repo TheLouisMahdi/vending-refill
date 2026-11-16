@@ -7115,6 +7115,134 @@
           "after": 12
         }
       ]
+    },
+    {
+      "id": "a2f4c1aebf71a65139bebb20895e9199a540815a",
+      "at": "2026-11-16T05:42:58.759Z",
+      "date": "1405/08/25",
+      "time": "09:12:58",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "24",
+          "product": "همپا آلوچه",
+          "before": 24,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "02dd7976d8a5869d02c3a36eb1b9f837414aed3f",
+      "at": "2026-11-16T05:43:01.275Z",
+      "date": "1405/08/25",
+      "time": "09:13:01",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "31",
+          "product": "وافل",
+          "before": 8,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "5457be0576d8ab845b6485d8076f967757219aff",
+      "at": "2026-11-16T05:43:03.369Z",
+      "date": "1405/08/25",
+      "time": "09:13:03",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "35",
+          "product": "کلوچه کاکائویی اکسترا",
+          "before": 12,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "0a3128bc26e6814363b5b38950091c58db5e268b",
+      "at": "2026-11-16T05:43:05.153Z",
+      "date": "1405/08/25",
+      "time": "09:13:05",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "36",
+          "product": "تخمه",
+          "before": 12,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "2e1eddb8d9eb8c57b09f3a7f887e18e301ef36f8",
+      "at": "2026-11-16T05:43:06.922Z",
+      "date": "1405/08/25",
+      "time": "09:13:06",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "38",
+          "product": "رول رول",
+          "before": 12,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "ebbfcddd8a31346c863621142b07cf77f024b23a",
+      "at": "2026-11-16T05:43:08.695Z",
+      "date": "1405/08/25",
+      "time": "09:13:08",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "52",
+          "product": "کیک مزمز",
+          "before": 12,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "022e64520cf370037e76d808f77aa62f44437ea8",
+      "at": "2026-11-16T05:43:10.943Z",
+      "date": "1405/08/25",
+      "time": "09:13:10",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "53",
+          "product": "شیر شکلات",
+          "before": 30,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "10bfa3a4b21a13e58b97985cb4f03a9e3c50c42e",
+      "at": "2026-11-16T05:43:12.825Z",
+      "date": "1405/08/25",
+      "time": "09:13:12",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "55",
+          "product": "شیر قهوه",
+          "before": 30,
+          "after": 0
+        }
+      ]
     }
   ]
 }
