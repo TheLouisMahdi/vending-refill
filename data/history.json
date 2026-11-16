@@ -7243,6 +7243,78 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "9eca9a5c3dfe8ecdb187ed8afb9ee3a174eb8c18",
+      "at": "2026-11-16T13:53:27.686Z",
+      "date": "1405/08/25",
+      "time": "17:23:27",
+      "operation": "record",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "15",
+          "product": "ساندویچ سرد کالباس",
+          "before": 0,
+          "after": 6
+        },
+        {
+          "field": "quantity",
+          "slot": "23",
+          "product": "کراست",
+          "before": 0,
+          "after": 24
+        },
+        {
+          "field": "quantity",
+          "slot": "24",
+          "product": "همپا آلوچه",
+          "before": 0,
+          "after": 24
+        },
+        {
+          "field": "quantity",
+          "slot": "26",
+          "product": "کیک تیتو ",
+          "before": 0,
+          "after": 20
+        },
+        {
+          "field": "quantity",
+          "slot": "28",
+          "product": "پچ‌پچ",
+          "before": 0,
+          "after": 30
+        },
+        {
+          "field": "quantity",
+          "slot": "31",
+          "product": "وافل",
+          "before": 0,
+          "after": 12
+        },
+        {
+          "field": "quantity",
+          "slot": "44",
+          "product": "آب",
+          "before": 0,
+          "after": 4
+        },
+        {
+          "field": "product",
+          "slot": "44",
+          "product": "آب",
+          "before": "ترد",
+          "after": "آب"
+        },
+        {
+          "field": "quantity",
+          "slot": "52",
+          "product": "کیک مزمز",
+          "before": 0,
+          "after": 30
+        }
+      ]
     }
   ]
 }
