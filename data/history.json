@@ -7771,6 +7771,182 @@
           "after": "فندق "
         }
       ]
+    },
+    {
+      "id": "91d3f7aaf928b47faf4367ad80fd745935a2dddd",
+      "at": "2026-11-18T07:19:54.277Z",
+      "date": "1405/08/27",
+      "time": "10:49:54",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "15",
+          "product": "ساندویچ سرد کالباس",
+          "before": 6,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "b5dd834af715e74145aed75e037cec92bcdb02fa",
+      "at": "2026-11-18T07:19:56.046Z",
+      "date": "1405/08/27",
+      "time": "10:49:56",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "17",
+          "product": "فمیلی کیک ",
+          "before": 6,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "8d1f6720586c4672f83d9e84e0733fca9a0cd30b",
+      "at": "2026-11-18T07:19:57.997Z",
+      "date": "1405/08/27",
+      "time": "10:49:57",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "21",
+          "product": "بایودنت نعناع",
+          "before": 12,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "621daba4136d412b6e1e397f0770a624753ec7e0",
+      "at": "2026-11-18T07:19:59.779Z",
+      "date": "1405/08/27",
+      "time": "10:49:59",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "22",
+          "product": "رول رول با کلاس",
+          "before": 12,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "5c41d8ec5897d62c8dbb23d2a0326b3cffe01bfd",
+      "at": "2026-11-18T07:20:01.635Z",
+      "date": "1405/08/27",
+      "time": "10:50:01",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "23",
+          "product": "بایودنت بادکنکی",
+          "before": 12,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "493a808f343eed8850c7d7c6ebffe0a7f07d879e",
+      "at": "2026-11-18T07:20:03.655Z",
+      "date": "1405/08/27",
+      "time": "10:50:03",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "28",
+          "product": "پچ‌پچ",
+          "before": 32,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "66e44ea84301b9a52dfce21b479b2878c7d2b7e8",
+      "at": "2026-11-18T07:20:05.439Z",
+      "date": "1405/08/27",
+      "time": "10:50:05",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "38",
+          "product": "رول رول",
+          "before": 12,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "92687eed3acffc84b24985b77b0ac325017398ab",
+      "at": "2026-11-18T07:20:07.218Z",
+      "date": "1405/08/27",
+      "time": "10:50:07",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "44",
+          "product": "آب",
+          "before": 48,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "3b21d9ec908f2838bd620eaf448b35bde52ae835",
+      "at": "2026-11-18T07:20:08.841Z",
+      "date": "1405/08/27",
+      "time": "10:50:08",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "46",
+          "product": "معینی پور",
+          "before": 24,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "ec608fc8c9b4a011b94c938cbd68089b9d12e147",
+      "at": "2026-11-18T07:20:10.804Z",
+      "date": "1405/08/27",
+      "time": "10:50:10",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "51",
+          "product": "های بای",
+          "before": 32,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "ffc310cfb4ae8cca45556e9eb5c1de58cc9e4ee1",
+      "at": "2026-11-18T07:20:12.513Z",
+      "date": "1405/08/27",
+      "time": "10:50:12",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "53",
+          "product": "شیر شکلات",
+          "before": 32,
+          "after": 0
+        }
+      ]
     }
   ]
 }
