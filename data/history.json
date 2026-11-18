@@ -7947,6 +7947,70 @@
           "after": 0
         }
       ]
+    },
+    {
+      "id": "eb704de767678d4940c0db7fe4e31ef53536ce33",
+      "at": "2026-11-18T07:20:21.139Z",
+      "date": "1405/08/27",
+      "time": "10:50:21",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "55",
+          "product": "شیر قهوه",
+          "before": 32,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "ed67bbc68d27c8123538f269f63a2fbc43645398",
+      "at": "2026-11-18T07:20:23.408Z",
+      "date": "1405/08/27",
+      "time": "10:50:23",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "61",
+          "product": "آیس کافی",
+          "before": 12,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "9647b20e01397a002b77a81c3c761222f9513582",
+      "at": "2026-11-18T07:20:26.108Z",
+      "date": "1405/08/27",
+      "time": "10:50:26",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "62",
+          "product": "پرو شیر قهوه",
+          "before": 24,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "0c783b02d86468d6f85b2c87bc6b15c990fa3eda",
+      "at": "2026-11-18T07:20:27.950Z",
+      "date": "1405/08/27",
+      "time": "10:50:27",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "63",
+          "product": "سن ایچ پت پرتقال",
+          "before": 12,
+          "after": 0
+        }
+      ]
     }
   ]
 }
