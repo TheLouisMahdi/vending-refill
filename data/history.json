@@ -8027,6 +8027,162 @@
           "after": ""
         }
       ]
+    },
+    {
+      "id": "592b3778a811a61bc41b0a470af2fc22bcb4de20",
+      "at": "2026-11-20T11:29:07.919Z",
+      "date": "1405/08/29",
+      "time": "14:59:07",
+      "operation": "record",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "11",
+          "product": "فمیلی کیک",
+          "before": 0,
+          "after": 10
+        },
+        {
+          "field": "product",
+          "slot": "11",
+          "product": "فمیلی کیک",
+          "before": "ساندویچ‌پستو",
+          "after": "فمیلی کیک"
+        },
+        {
+          "field": "quantity",
+          "slot": "13",
+          "product": "ساندویچ سرد الویه",
+          "before": 0,
+          "after": 1
+        },
+        {
+          "field": "product",
+          "slot": "13",
+          "product": "ساندویچ سرد الویه",
+          "before": "ساندویچ سرد مرغ چدار",
+          "after": "ساندویچ سرد الویه"
+        },
+        {
+          "field": "quantity",
+          "slot": "15",
+          "product": "ساندویچ سرد مرغ",
+          "before": 0,
+          "after": 6
+        },
+        {
+          "field": "product",
+          "slot": "15",
+          "product": "ساندویچ سرد مرغ",
+          "before": "ساندویچ سرد کالباس",
+          "after": "ساندویچ سرد مرغ"
+        },
+        {
+          "field": "quantity",
+          "slot": "17",
+          "product": "کالباس ",
+          "before": 0,
+          "after": 3
+        },
+        {
+          "field": "product",
+          "slot": "17",
+          "product": "کالباس ",
+          "before": "فمیلی کیک ",
+          "after": "کالباس "
+        },
+        {
+          "field": "quantity",
+          "slot": "21",
+          "product": "بایودنت نعناع",
+          "before": 0,
+          "after": 18
+        },
+        {
+          "field": "quantity",
+          "slot": "28",
+          "product": "پچ‌پچ",
+          "before": 0,
+          "after": 36
+        },
+        {
+          "field": "quantity",
+          "slot": "34",
+          "product": "ویفر نادری کوچیک",
+          "before": 0,
+          "after": 15
+        },
+        {
+          "field": "quantity",
+          "slot": "35",
+          "product": "کلوچه کاکائویی اکسترا",
+          "before": 0,
+          "after": 30
+        },
+        {
+          "field": "quantity",
+          "slot": "42",
+          "product": "آب معدنی ",
+          "before": 0,
+          "after": 3
+        },
+        {
+          "field": "product",
+          "slot": "42",
+          "product": "آب معدنی ",
+          "before": "تاینی",
+          "after": "آب معدنی "
+        },
+        {
+          "field": "quantity",
+          "slot": "45",
+          "product": "های بای نادری",
+          "before": 0,
+          "after": 36
+        },
+        {
+          "field": "quantity",
+          "slot": "51",
+          "product": "های بای",
+          "before": 0,
+          "after": 24
+        },
+        {
+          "field": "quantity",
+          "slot": "61",
+          "product": "آیس کافی",
+          "before": 0,
+          "after": 6
+        },
+        {
+          "field": "quantity",
+          "slot": "62",
+          "product": "پرو شیر ",
+          "before": 0,
+          "after": 18
+        },
+        {
+          "field": "product",
+          "slot": "62",
+          "product": "پرو شیر ",
+          "before": "پرو شیر قهوه",
+          "after": "پرو شیر "
+        },
+        {
+          "field": "quantity",
+          "slot": "66",
+          "product": "لایف بدون قند ",
+          "before": 0,
+          "after": 10
+        },
+        {
+          "field": "notes",
+          "slot": "",
+          "product": "",
+          "before": "",
+          "after": "میت ۲ \nهات چاکلت ۱\nقاشق ۶\nلیوان ۶"
+        }
+      ]
     }
   ]
 }
