@@ -8183,6 +8183,230 @@
           "after": "میت ۲ \nهات چاکلت ۱\nقاشق ۶\nلیوان ۶"
         }
       ]
+    },
+    {
+      "id": "88449f9701e1b3167ceed64eaff710c4bc5eb297",
+      "at": "2026-11-21T05:18:49.659Z",
+      "date": "1405/08/30",
+      "time": "08:48:49",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "11",
+          "product": "فمیلی کیک",
+          "before": 10,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "cecf6f7bd68aed475bc9ac1b7bd31604bc39ef58",
+      "at": "2026-11-21T05:18:51.498Z",
+      "date": "1405/08/30",
+      "time": "08:48:51",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "13",
+          "product": "ساندویچ سرد الویه",
+          "before": 1,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "d9cf2880c7d38469dd8f4246e1c29d4e68fac094",
+      "at": "2026-11-21T05:18:53.217Z",
+      "date": "1405/08/30",
+      "time": "08:48:53",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "15",
+          "product": "ساندویچ سرد مرغ",
+          "before": 6,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "fc183f152c75682d693ba5f1fc0a0263a3331d65",
+      "at": "2026-11-21T05:18:55.135Z",
+      "date": "1405/08/30",
+      "time": "08:48:55",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "17",
+          "product": "کالباس ",
+          "before": 3,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "aeb3e90028949cea39b39f9f1bd4e4567c71f30f",
+      "at": "2026-11-21T05:18:56.847Z",
+      "date": "1405/08/30",
+      "time": "08:48:56",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "21",
+          "product": "بایودنت نعناع",
+          "before": 18,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "ec6ee37f4ef9ced2018dd16be75b9a7ee410716b",
+      "at": "2026-11-21T05:18:58.499Z",
+      "date": "1405/08/30",
+      "time": "08:48:58",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "28",
+          "product": "پچ‌پچ",
+          "before": 36,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "384cc1f91e9bedf5833ba3e1ae849b7b20753241",
+      "at": "2026-11-21T05:19:00.482Z",
+      "date": "1405/08/30",
+      "time": "08:49:00",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "34",
+          "product": "ویفر نادری کوچیک",
+          "before": 15,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "b6b38537558d83f78654cecd09c5a5b747a92d4f",
+      "at": "2026-11-21T05:19:02.272Z",
+      "date": "1405/08/30",
+      "time": "08:49:02",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "35",
+          "product": "کلوچه کاکائویی اکسترا",
+          "before": 30,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "90d2b0c4840c54a58c09ae6150bfa7bc4a57a1e9",
+      "at": "2026-11-21T05:19:03.897Z",
+      "date": "1405/08/30",
+      "time": "08:49:03",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "42",
+          "product": "آب معدنی ",
+          "before": 3,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "9ccb10e39fbd07bd0bb3aecd010d0b65e8109870",
+      "at": "2026-11-21T05:19:05.615Z",
+      "date": "1405/08/30",
+      "time": "08:49:05",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "45",
+          "product": "های بای نادری",
+          "before": 36,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "2538e017a6482fd416901c841955ccf943f0a31d",
+      "at": "2026-11-21T05:19:07.190Z",
+      "date": "1405/08/30",
+      "time": "08:49:07",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "51",
+          "product": "های بای",
+          "before": 24,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "a4cd81d6337e2ebbeb211d92b7631f509df74194",
+      "at": "2026-11-21T05:19:08.938Z",
+      "date": "1405/08/30",
+      "time": "08:49:08",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "61",
+          "product": "آیس کافی",
+          "before": 6,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "cea8ed0bf55f29e088c7a419a6ca55053cce7c47",
+      "at": "2026-11-21T05:19:10.735Z",
+      "date": "1405/08/30",
+      "time": "08:49:10",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "62",
+          "product": "پرو شیر ",
+          "before": 18,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "0de23804fc81e0ec3228d190a2a49f9f762d30c5",
+      "at": "2026-11-21T05:19:12.488Z",
+      "date": "1405/08/30",
+      "time": "08:49:12",
+      "operation": "refill",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "66",
+          "product": "لایف بدون قند ",
+          "before": 10,
+          "after": 0
+        }
+      ]
     }
   ]
 }
