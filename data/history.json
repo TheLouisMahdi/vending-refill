@@ -8444,6 +8444,22 @@
           "after": 12
         }
       ]
+    },
+    {
+      "id": "ebcb445a6251a1b2756d9dbfa131ab3a72225cf9",
+      "at": "2026-11-24T08:40:43.694Z",
+      "date": "1405/09/03",
+      "time": "12:10:43",
+      "operation": "record",
+      "changes": [
+        {
+          "field": "quantity",
+          "slot": "32",
+          "product": "کوکی",
+          "before": 0,
+          "after": 24
+        }
+      ]
     }
   ]
 }
